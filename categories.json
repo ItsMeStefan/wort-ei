@@ -3,1127 +3,2248 @@
     {
       "id": "easy-1",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: PIZZABELÄGE!"
+      "text": "NENNE EINEN BEGRIFF ZU: PIZZABELÄGE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-2",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: OBSTSORTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: OBSTSORTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-3",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: GEMÜSESORTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: GEMÜSESORTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-4",
       "level": "easy",
-      "text": "NENNE TIERE AUF DEM BAUERNHOF!"
+      "text": "NENNE TIERE AUF DEM BAUERNHOF!",
+      "pack": "alltag"
     },
     {
       "id": "easy-5",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: HAUSTIERE!"
+      "text": "NENNE EINEN BEGRIFF ZU: HAUSTIERE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-6",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: WILDE TIERE!"
+      "text": "NENNE EINEN BEGRIFF ZU: WILDE TIERE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-7",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: VÖGEL!"
+      "text": "NENNE EINEN BEGRIFF ZU: VÖGEL!",
+      "pack": "alltag"
     },
     {
       "id": "easy-8",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: FISCHE!"
+      "text": "NENNE EINEN BEGRIFF ZU: FISCHE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-9",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: INSEKTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: INSEKTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-10",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: BLUMEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: BLUMEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-11",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: BÄUME!"
+      "text": "NENNE EINEN BEGRIFF ZU: BÄUME!",
+      "pack": "alltag"
     },
     {
       "id": "easy-12",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: FARBEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: FARBEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-13",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: KÖRPERTEILE!"
+      "text": "NENNE EINEN BEGRIFF ZU: KÖRPERTEILE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-14",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: KLEIDUNGSSTÜCKE!"
+      "text": "NENNE EINEN BEGRIFF ZU: KLEIDUNGSSTÜCKE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-15",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: SCHUHE!"
+      "text": "NENNE EINEN BEGRIFF ZU: SCHUHE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-16",
       "level": "easy",
-      "text": "NENNE DINGE IM BADEZIMMER!"
+      "text": "NENNE DINGE IM BADEZIMMER!",
+      "pack": "alltag"
     },
     {
       "id": "easy-17",
       "level": "easy",
-      "text": "NENNE DINGE IN DER KÜCHE!"
+      "text": "NENNE DINGE IN DER KÜCHE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-18",
       "level": "easy",
-      "text": "NENNE DINGE IM KÜHLSCHRANK!"
+      "text": "NENNE DINGE IM KÜHLSCHRANK!",
+      "pack": "alltag"
     },
     {
       "id": "easy-19",
       "level": "easy",
-      "text": "NENNE DINGE IM KINDERZIMMER!"
+      "text": "NENNE DINGE IM KINDERZIMMER!",
+      "pack": "alltag"
     },
     {
       "id": "easy-20",
       "level": "easy",
-      "text": "NENNE DINGE IM WOHNZIMMER!"
+      "text": "NENNE DINGE IM WOHNZIMMER!",
+      "pack": "alltag"
     },
     {
       "id": "easy-21",
       "level": "easy",
-      "text": "NENNE DINGE IM SUPERMARKT!"
+      "text": "NENNE DINGE IM SUPERMARKT!",
+      "pack": "alltag"
     },
     {
       "id": "easy-22",
       "level": "easy",
-      "text": "NENNE DINGE IN DER SCHULE!"
+      "text": "NENNE DINGE IN DER SCHULE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-23",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: SCHULFÄCHER!"
+      "text": "NENNE EINEN BEGRIFF ZU: SCHULFÄCHER!",
+      "pack": "alltag"
     },
     {
       "id": "easy-24",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: SPIELZEUGE!"
+      "text": "NENNE EINEN BEGRIFF ZU: SPIELZEUGE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-25",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: BRETTSPIELE!"
+      "text": "NENNE EINEN BEGRIFF ZU: BRETTSPIELE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-26",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: SPORTARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: SPORTARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-27",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: MUSIKINSTRUMENTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: MUSIKINSTRUMENTE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-28",
       "level": "easy",
-      "text": "NENNE BERUFE!"
+      "text": "NENNE BERUFE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-29",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: FAHRZEUGE!"
+      "text": "NENNE EINEN BEGRIFF ZU: FAHRZEUGE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-30",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: AUTOMARKEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: AUTOMARKEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-31",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: LÄNDER!"
+      "text": "NENNE EINEN BEGRIFF ZU: LÄNDER!",
+      "pack": "alltag"
     },
     {
       "id": "easy-32",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: STÄDTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: STÄDTE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-33",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: SÜSSIGKEITEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: SÜSSIGKEITEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-34",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: EISSORTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: EISSORTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-35",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: GETRÄNKE!"
+      "text": "NENNE EINEN BEGRIFF ZU: GETRÄNKE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-36",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: FRÜHSTÜCKSGERICHTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: FRÜHSTÜCKSGERICHTE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-37",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: NUDELSORTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: NUDELSORTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-38",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: BROTSORTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: BROTSORTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-39",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: KÄSESORTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: KÄSESORTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-40",
       "level": "easy",
-      "text": "NENNE DINGE AM STRAND!"
+      "text": "NENNE DINGE AM STRAND!",
+      "pack": "alltag"
     },
     {
       "id": "easy-41",
       "level": "easy",
-      "text": "NENNE DINGE IM URLAUBSKOFFER!"
+      "text": "NENNE DINGE IM URLAUBSKOFFER!",
+      "pack": "alltag"
     },
     {
       "id": "easy-42",
       "level": "easy",
-      "text": "NENNE DINGE, DIE FLIEGEN KÖNNEN!"
+      "text": "NENNE DINGE, DIE FLIEGEN KÖNNEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-43",
       "level": "easy",
-      "text": "NENNE DINGE MIT RÄDERN!"
+      "text": "NENNE DINGE MIT RÄDERN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-44",
       "level": "easy",
-      "text": "NENNE DINGE, DIE RUND SIND!"
+      "text": "NENNE DINGE, DIE RUND SIND!",
+      "pack": "alltag"
     },
     {
       "id": "easy-45",
       "level": "easy",
-      "text": "NENNE DINGE AUS HOLZ!"
+      "text": "NENNE DINGE AUS HOLZ!",
+      "pack": "alltag"
     },
     {
       "id": "easy-46",
       "level": "easy",
-      "text": "NENNE DINGE AUS METALL!"
+      "text": "NENNE DINGE AUS METALL!",
+      "pack": "alltag"
     },
     {
       "id": "easy-47",
       "level": "easy",
-      "text": "NENNE DINGE AUS PAPIER!"
+      "text": "NENNE DINGE AUS PAPIER!",
+      "pack": "alltag"
     },
     {
       "id": "easy-48",
       "level": "easy",
-      "text": "NENNE DINGE, DIE MAN ESSEN KANN!"
+      "text": "NENNE DINGE, DIE MAN ESSEN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-49",
       "level": "easy",
-      "text": "NENNE DINGE, DIE KALT SIND!"
+      "text": "NENNE DINGE, DIE KALT SIND!",
+      "pack": "alltag"
     },
     {
       "id": "easy-50",
       "level": "easy",
-      "text": "NENNE DINGE, DIE HEISS SIND!"
+      "text": "NENNE DINGE, DIE HEISS SIND!",
+      "pack": "alltag"
     },
     {
       "id": "easy-51",
       "level": "easy",
-      "text": "NENNE TIERE MIT VIER BEINEN!"
+      "text": "NENNE TIERE MIT VIER BEINEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-52",
       "level": "easy",
-      "text": "NENNE TIERE MIT STREIFEN!"
+      "text": "NENNE TIERE MIT STREIFEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-53",
       "level": "easy",
-      "text": "NENNE TIERE MIT FLÜGELN!"
+      "text": "NENNE TIERE MIT FLÜGELN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-54",
       "level": "easy",
-      "text": "NENNE DINGE IM GARTEN!"
+      "text": "NENNE DINGE IM GARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-55",
       "level": "easy",
-      "text": "NENNE DINGE AUF DEM SPIELPLATZ!"
+      "text": "NENNE DINGE AUF DEM SPIELPLATZ!",
+      "pack": "alltag"
     },
     {
       "id": "easy-56",
       "level": "easy",
-      "text": "NENNE DINGE IM SCHWIMMBAD!"
+      "text": "NENNE DINGE IM SCHWIMMBAD!",
+      "pack": "alltag"
     },
     {
       "id": "easy-57",
       "level": "easy",
-      "text": "NENNE DINGE IM ZOO!"
+      "text": "NENNE DINGE IM ZOO!",
+      "pack": "alltag"
     },
     {
       "id": "easy-58",
       "level": "easy",
-      "text": "NENNE DINGE AUF EINER GEBURTSTAGSPARTY!"
+      "text": "NENNE DINGE AUF EINER GEBURTSTAGSPARTY!",
+      "pack": "alltag"
     },
     {
       "id": "easy-59",
       "level": "easy",
-      "text": "NENNE DINGE AN WEIHNACHTEN!"
+      "text": "NENNE DINGE AN WEIHNACHTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-60",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: WOCHENTAGE!"
+      "text": "NENNE EINEN BEGRIFF ZU: WOCHENTAGE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-61",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: MONATE!"
+      "text": "NENNE EINEN BEGRIFF ZU: MONATE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-62",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: JAHRESZEITEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: JAHRESZEITEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-63",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: WETTERARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: WETTERARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-64",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: GERÄUSCHE VON TIEREN!"
+      "text": "NENNE EINEN BEGRIFF ZU: GERÄUSCHE VON TIEREN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-65",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: MÄRCHENFIGUREN!"
+      "text": "NENNE EINEN BEGRIFF ZU: MÄRCHENFIGUREN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-66",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: SUPERHELDEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: SUPERHELDEN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-67",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: COMICFIGUREN!"
+      "text": "NENNE EINEN BEGRIFF ZU: COMICFIGUREN!",
+      "pack": "alltag"
     },
     {
       "id": "easy-68",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: COMPUTERSPIELE!"
+      "text": "NENNE EINEN BEGRIFF ZU: COMPUTERSPIELE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-69",
       "level": "easy",
-      "text": "NENNE EINEN BEGRIFF ZU: MINECRAFT-GEGENSTÄNDE!"
+      "text": "NENNE EINEN BEGRIFF ZU: MINECRAFT-GEGENSTÄNDE!",
+      "pack": "alltag"
     },
     {
       "id": "easy-70",
       "level": "easy",
-      "text": "NENNE DINGE IN EINER BÄCKEREI!"
+      "text": "NENNE DINGE IN EINER BÄCKEREI!",
+      "pack": "alltag"
     },
     {
       "id": "easy-71",
       "level": "easy",
-      "text": "NENNE DINGE AUF EINEM BAUERNHOF!"
+      "text": "NENNE DINGE AUF EINEM BAUERNHOF!",
+      "pack": "alltag"
     },
     {
       "id": "easy-72",
       "level": "easy",
-      "text": "NENNE DINGE AUF DEM SCHREIBTISCH!"
+      "text": "NENNE DINGE AUF DEM SCHREIBTISCH!",
+      "pack": "alltag"
     },
     {
       "id": "easy-73",
       "level": "easy",
-      "text": "NENNE DINGE IM AUTO!"
+      "text": "NENNE DINGE IM AUTO!",
+      "pack": "alltag"
     },
     {
       "id": "easy-74",
       "level": "easy",
-      "text": "NENNE DINGE IM RUCKSACK!"
+      "text": "NENNE DINGE IM RUCKSACK!",
+      "pack": "alltag"
     },
     {
       "id": "easy-75",
       "level": "easy",
-      "text": "NENNE DINGE, DIE LEUCHTEN!"
+      "text": "NENNE DINGE, DIE LEUCHTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-1",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: HAUPTSTÄDTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: HAUPTSTÄDTE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-2",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: FLÜSSE!"
+      "text": "NENNE EINEN BEGRIFF ZU: FLÜSSE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-3",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: GEBIRGE!"
+      "text": "NENNE EINEN BEGRIFF ZU: GEBIRGE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-4",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: INSELN!"
+      "text": "NENNE EINEN BEGRIFF ZU: INSELN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-5",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: MEERE!"
+      "text": "NENNE EINEN BEGRIFF ZU: MEERE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-6",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: PLANETEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: PLANETEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-7",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: STERNE UND STERNBILDER!"
+      "text": "NENNE EINEN BEGRIFF ZU: STERNE UND STERNBILDER!",
+      "pack": "alltag"
     },
     {
       "id": "normal-8",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: DINOSAURIER!"
+      "text": "NENNE EINEN BEGRIFF ZU: DINOSAURIER!",
+      "pack": "alltag"
     },
     {
       "id": "normal-9",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: REPTILIEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: REPTILIEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-10",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: MEERESTIERE!"
+      "text": "NENNE EINEN BEGRIFF ZU: MEERESTIERE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-11",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: NACHTAKTIVE TIERE!"
+      "text": "NENNE EINEN BEGRIFF ZU: NACHTAKTIVE TIERE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-12",
       "level": "normal",
-      "text": "NENNE TIERE MIT PANZER!"
+      "text": "NENNE TIERE MIT PANZER!",
+      "pack": "alltag"
     },
     {
       "id": "normal-13",
       "level": "normal",
-      "text": "NENNE TIERE, DIE SPRINGEN!"
+      "text": "NENNE TIERE, DIE SPRINGEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-14",
       "level": "normal",
-      "text": "NENNE TIERE, DIE WINTERSCHLAF HALTEN!"
+      "text": "NENNE TIERE, DIE WINTERSCHLAF HALTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-15",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: BAUMARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: BAUMARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-16",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: KRÄUTER!"
+      "text": "NENNE EINEN BEGRIFF ZU: KRÄUTER!",
+      "pack": "alltag"
     },
     {
       "id": "normal-17",
       "level": "normal",
-      "text": "NENNE GEWÜRZE!"
+      "text": "NENNE GEWÜRZE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-18",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: PILZARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: PILZARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-19",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: NÜSSE!"
+      "text": "NENNE EINEN BEGRIFF ZU: NÜSSE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-20",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: BEEREN!"
+      "text": "NENNE EINEN BEGRIFF ZU: BEEREN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-21",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: KUCHENARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: KUCHENARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-22",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: SUPPEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: SUPPEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-23",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: SAUCEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: SAUCEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-24",
       "level": "normal",
-      "text": "NENNE GERICHTE AUS KARTOFFELN!"
+      "text": "NENNE GERICHTE AUS KARTOFFELN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-25",
       "level": "normal",
-      "text": "NENNE GERICHTE MIT REIS!"
+      "text": "NENNE GERICHTE MIT REIS!",
+      "pack": "alltag"
     },
     {
       "id": "normal-26",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: FAST-FOOD-GERICHTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: FAST-FOOD-GERICHTE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-27",
       "level": "normal",
-      "text": "NENNE DINGE VOM GRILL!"
+      "text": "NENNE DINGE VOM GRILL!",
+      "pack": "alltag"
     },
     {
       "id": "normal-28",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: KÜCHENGERÄTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: KÜCHENGERÄTE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-29",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: WERKZEUGE!"
+      "text": "NENNE EINEN BEGRIFF ZU: WERKZEUGE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-30",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: ELEKTROGERÄTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: ELEKTROGERÄTE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-31",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: APPS AUF DEM SMARTPHONE!"
+      "text": "NENNE EINEN BEGRIFF ZU: APPS AUF DEM SMARTPHONE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-32",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: WEBSEITENARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: WEBSEITENARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-33",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: FILMGENRES!"
+      "text": "NENNE EINEN BEGRIFF ZU: FILMGENRES!",
+      "pack": "alltag"
     },
     {
       "id": "normal-34",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: MUSIKRICHTUNGEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: MUSIKRICHTUNGEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-35",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: TÄNZE!"
+      "text": "NENNE EINEN BEGRIFF ZU: TÄNZE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-36",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: OLYMPISCHE SPORTARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: OLYMPISCHE SPORTARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-37",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: BALLSPORTARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: BALLSPORTARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-38",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: WASSERSPORTARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: WASSERSPORTARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-39",
       "level": "normal",
-      "text": "NENNE EINEN BEGRIFF ZU: WINTERSPORTARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: WINTERSPORTARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-40",
       "level": "normal",
-      "text": "NENNE BERUFE IM KRANKENHAUS!"
+      "text": "NENNE BERUFE IM KRANKENHAUS!",
+      "pack": "alltag"
     },
     {
       "id": "normal-41",
       "level": "normal",
-      "text": "NENNE BERUFE IM RESTAURANT!"
+      "text": "NENNE BERUFE IM RESTAURANT!",
+      "pack": "alltag"
     },
     {
       "id": "normal-42",
       "level": "normal",
-      "text": "NENNE BERUFE AUF EINER BAUSTELLE!"
+      "text": "NENNE BERUFE AUF EINER BAUSTELLE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-43",
       "level": "normal",
-      "text": "NENNE DINGE IM MUSEUM!"
+      "text": "NENNE DINGE IM MUSEUM!",
+      "pack": "alltag"
     },
     {
       "id": "normal-44",
       "level": "normal",
-      "text": "NENNE DINGE IM THEATER!"
+      "text": "NENNE DINGE IM THEATER!",
+      "pack": "alltag"
     },
     {
       "id": "normal-45",
       "level": "normal",
-      "text": "NENNE DINGE AM BAHNHOF!"
+      "text": "NENNE DINGE AM BAHNHOF!",
+      "pack": "alltag"
     },
     {
       "id": "normal-46",
       "level": "normal",
-      "text": "NENNE DINGE AM FLUGHAFEN!"
+      "text": "NENNE DINGE AM FLUGHAFEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-47",
       "level": "normal",
-      "text": "NENNE DINGE AUF EINEM SCHIFF!"
+      "text": "NENNE DINGE AUF EINEM SCHIFF!",
+      "pack": "alltag"
     },
     {
       "id": "normal-48",
       "level": "normal",
-      "text": "NENNE DINGE BEIM CAMPING!"
+      "text": "NENNE DINGE BEIM CAMPING!",
+      "pack": "alltag"
     },
     {
       "id": "normal-49",
       "level": "normal",
-      "text": "NENNE DINGE IM WALD!"
+      "text": "NENNE DINGE IM WALD!",
+      "pack": "alltag"
     },
     {
       "id": "normal-50",
       "level": "normal",
-      "text": "NENNE DINGE IN DER WÜSTE!"
+      "text": "NENNE DINGE IN DER WÜSTE!",
+      "pack": "alltag"
     },
     {
       "id": "normal-51",
       "level": "normal",
-      "text": "NENNE DINGE UNTER WASSER!"
+      "text": "NENNE DINGE UNTER WASSER!",
+      "pack": "alltag"
     },
     {
       "id": "normal-52",
       "level": "normal",
-      "text": "NENNE DINGE AM HIMMEL!"
+      "text": "NENNE DINGE AM HIMMEL!",
+      "pack": "alltag"
     },
     {
       "id": "normal-53",
       "level": "normal",
-      "text": "NENNE DINGE, DIE KNISTERN!"
+      "text": "NENNE DINGE, DIE KNISTERN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-54",
       "level": "normal",
-      "text": "NENNE DINGE, DIE KLEBEN!"
+      "text": "NENNE DINGE, DIE KLEBEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-55",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN FALTEN KANN!"
+      "text": "NENNE DINGE, DIE MAN FALTEN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-56",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN SAMMELN KANN!"
+      "text": "NENNE DINGE, DIE MAN SAMMELN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-57",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN AUSLEIHEN KANN!"
+      "text": "NENNE DINGE, DIE MAN AUSLEIHEN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-58",
       "level": "normal",
-      "text": "NENNE DINGE MIT KNÖPFEN!"
+      "text": "NENNE DINGE MIT KNÖPFEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-59",
       "level": "normal",
-      "text": "NENNE DINGE MIT REISSVERSCHLUSS!"
+      "text": "NENNE DINGE MIT REISSVERSCHLUSS!",
+      "pack": "alltag"
     },
     {
       "id": "normal-60",
       "level": "normal",
-      "text": "NENNE DINGE MIT EINEM GRIFF!"
+      "text": "NENNE DINGE MIT EINEM GRIFF!",
+      "pack": "alltag"
     },
     {
       "id": "normal-61",
       "level": "normal",
-      "text": "NENNE DINGE MIT EINEM DECKEL!"
+      "text": "NENNE DINGE MIT EINEM DECKEL!",
+      "pack": "alltag"
     },
     {
       "id": "normal-62",
       "level": "normal",
-      "text": "NENNE DINGE, DIE BATTERIE BRAUCHEN!"
+      "text": "NENNE DINGE, DIE BATTERIE BRAUCHEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-63",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN REPARIEREN KANN!"
+      "text": "NENNE DINGE, DIE MAN REPARIEREN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-64",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN VERLIEREN KANN!"
+      "text": "NENNE DINGE, DIE MAN VERLIEREN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-65",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN TEILEN KANN!"
+      "text": "NENNE DINGE, DIE MAN TEILEN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-66",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN MESSEN KANN!"
+      "text": "NENNE DINGE, DIE MAN MESSEN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-67",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN WERFEN KANN!"
+      "text": "NENNE DINGE, DIE MAN WERFEN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-68",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN STAPELN KANN!"
+      "text": "NENNE DINGE, DIE MAN STAPELN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-69",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN SCHÜTTELN KANN!"
+      "text": "NENNE DINGE, DIE MAN SCHÜTTELN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-70",
       "level": "normal",
-      "text": "NENNE DINGE, DIE MAN AUFBLASEN KANN!"
+      "text": "NENNE DINGE, DIE MAN AUFBLASEN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-71",
       "level": "normal",
-      "text": "NENNE DINGE, DIE IM KREIS FAHREN!"
+      "text": "NENNE DINGE, DIE IM KREIS FAHREN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-72",
       "level": "normal",
-      "text": "NENNE DINGE, DIE WASSER BRAUCHEN!"
+      "text": "NENNE DINGE, DIE WASSER BRAUCHEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-73",
       "level": "normal",
-      "text": "NENNE DINGE, DIE STROM BRAUCHEN!"
+      "text": "NENNE DINGE, DIE STROM BRAUCHEN!",
+      "pack": "alltag"
     },
     {
       "id": "normal-74",
       "level": "normal",
-      "text": "NENNE DINGE AUS GLAS!"
+      "text": "NENNE DINGE AUS GLAS!",
+      "pack": "alltag"
     },
     {
       "id": "normal-75",
       "level": "normal",
-      "text": "NENNE DINGE AUS STOFF!"
+      "text": "NENNE DINGE AUS STOFF!",
+      "pack": "alltag"
     },
     {
       "id": "hard-1",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: ERFINDUNGEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: ERFINDUNGEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-2",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: BERÜHMTE ERFINDERINNEN UND ERFINDER!"
+      "text": "NENNE EINEN BEGRIFF ZU: BERÜHMTE ERFINDERINNEN UND ERFINDER!",
+      "pack": "alltag"
     },
     {
       "id": "hard-3",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: WISSENSCHAFTLICHE BERUFE!"
+      "text": "NENNE EINEN BEGRIFF ZU: WISSENSCHAFTLICHE BERUFE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-4",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: CHEMISCHE ELEMENTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: CHEMISCHE ELEMENTE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-5",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: ENERGIEQUELLEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: ENERGIEQUELLEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-6",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: ERNEUERBARE ENERGIEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: ERNEUERBARE ENERGIEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-7",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: NATURKATASTROPHEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: NATURKATASTROPHEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-8",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: WOLKENARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: WOLKENARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-9",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: GESTEINSARTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: GESTEINSARTEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-10",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: EDELSTEINE!"
+      "text": "NENNE EINEN BEGRIFF ZU: EDELSTEINE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-11",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: MINERALIEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: MINERALIEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-12",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: VULKANISCHE BEGRIFFE!"
+      "text": "NENNE EINEN BEGRIFF ZU: VULKANISCHE BEGRIFFE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-13",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: KONTINENTE UND OZEANE!"
+      "text": "NENNE EINEN BEGRIFF ZU: KONTINENTE UND OZEANE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-14",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: EUROPÄISCHE HAUPTSTÄDTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: EUROPÄISCHE HAUPTSTÄDTE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-15",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: LÄNDER IN AFRIKA!"
+      "text": "NENNE EINEN BEGRIFF ZU: LÄNDER IN AFRIKA!",
+      "pack": "alltag"
     },
     {
       "id": "hard-16",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: LÄNDER IN SÜDAMERIKA!"
+      "text": "NENNE EINEN BEGRIFF ZU: LÄNDER IN SÜDAMERIKA!",
+      "pack": "alltag"
     },
     {
       "id": "hard-17",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: INSELSTAATEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: INSELSTAATEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-18",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: SPRACHEN DER WELT!"
+      "text": "NENNE EINEN BEGRIFF ZU: SPRACHEN DER WELT!",
+      "pack": "alltag"
     },
     {
       "id": "hard-19",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: WÄHRUNGEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: WÄHRUNGEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-20",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: HISTORISCHE BAUWERKE!"
+      "text": "NENNE EINEN BEGRIFF ZU: HISTORISCHE BAUWERKE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-21",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: WELTWUNDER!"
+      "text": "NENNE EINEN BEGRIFF ZU: WELTWUNDER!",
+      "pack": "alltag"
     },
     {
       "id": "hard-22",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: BERÜHMTE GEMÄLDE!"
+      "text": "NENNE EINEN BEGRIFF ZU: BERÜHMTE GEMÄLDE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-23",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: KUNSTSTILE!"
+      "text": "NENNE EINEN BEGRIFF ZU: KUNSTSTILE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-24",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: ARCHITEKTURBEGRIFFE!"
+      "text": "NENNE EINEN BEGRIFF ZU: ARCHITEKTURBEGRIFFE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-25",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: MUSIKINSTRUMENTE MIT SAITEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: MUSIKINSTRUMENTE MIT SAITEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-26",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: MUSIKINSTRUMENTE ZUM BLASEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: MUSIKINSTRUMENTE ZUM BLASEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-27",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: KOMPONISTINNEN UND KOMPONISTEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: KOMPONISTINNEN UND KOMPONISTEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-28",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: BUCHGENRES!"
+      "text": "NENNE EINEN BEGRIFF ZU: BUCHGENRES!",
+      "pack": "alltag"
     },
     {
       "id": "hard-29",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: GEDICHTFORMEN!"
+      "text": "NENNE EINEN BEGRIFF ZU: GEDICHTFORMEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-30",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: REDEWENDUNGEN MIT TIEREN!"
+      "text": "NENNE EINEN BEGRIFF ZU: REDEWENDUNGEN MIT TIEREN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-31",
       "level": "hard",
-      "text": "NENNE WÖRTER MIT DREI SILBEN!"
+      "text": "NENNE WÖRTER MIT DREI SILBEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-32",
       "level": "hard",
-      "text": "NENNE WÖRTER MIT DOPPELTEM KONSONANTEN!"
+      "text": "NENNE WÖRTER MIT DOPPELTEM KONSONANTEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-33",
       "level": "hard",
-      "text": "NENNE WÖRTER, DIE AUF -HEIT ENDEN!"
+      "text": "NENNE WÖRTER, DIE AUF -HEIT ENDEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-34",
       "level": "hard",
-      "text": "NENNE WÖRTER MIT STUMMEM H!"
+      "text": "NENNE WÖRTER MIT STUMMEM H!",
+      "pack": "alltag"
     },
     {
       "id": "hard-35",
       "level": "hard",
-      "text": "NENNE WÖRTER MIT MEHREREN BEDEUTUNGEN!"
+      "text": "NENNE WÖRTER MIT MEHREREN BEDEUTUNGEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-36",
       "level": "hard",
-      "text": "NENNE DINGE, DIE MAN RECYCELN KANN!"
+      "text": "NENNE DINGE, DIE MAN RECYCELN KANN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-37",
       "level": "hard",
-      "text": "NENNE DINGE, DIE BIOLOGISCH ABBAUBAR SIND!"
+      "text": "NENNE DINGE, DIE BIOLOGISCH ABBAUBAR SIND!",
+      "pack": "alltag"
     },
     {
       "id": "hard-38",
       "level": "hard",
-      "text": "NENNE DINGE, DIE MAN NICHT ANFASSEN SOLLTE!"
+      "text": "NENNE DINGE, DIE MAN NICHT ANFASSEN SOLLTE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-39",
       "level": "hard",
-      "text": "NENNE DINGE, DIE LAUTLOS SEIN KÖNNEN!"
+      "text": "NENNE DINGE, DIE LAUTLOS SEIN KÖNNEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-40",
       "level": "hard",
-      "text": "NENNE DINGE, DIE NUR IM DUNKELN SICHTBAR SIND!"
+      "text": "NENNE DINGE, DIE NUR IM DUNKELN SICHTBAR SIND!",
+      "pack": "alltag"
     },
     {
       "id": "hard-41",
       "level": "hard",
-      "text": "NENNE DINGE, DIE SICH VON SELBST BEWEGEN!"
+      "text": "NENNE DINGE, DIE SICH VON SELBST BEWEGEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-42",
       "level": "hard",
-      "text": "NENNE DINGE, DIE SICH AUSDEHNEN!"
+      "text": "NENNE DINGE, DIE SICH AUSDEHNEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-43",
       "level": "hard",
-      "text": "NENNE DINGE, DIE SCHWIMMEN UND FLIEGEN KÖNNEN!"
+      "text": "NENNE DINGE, DIE SCHWIMMEN UND FLIEGEN KÖNNEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-44",
       "level": "hard",
-      "text": "NENNE DINGE, DIE IM WASSER WACHSEN!"
+      "text": "NENNE DINGE, DIE IM WASSER WACHSEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-45",
       "level": "hard",
-      "text": "NENNE TIERE OHNE BEINE!"
+      "text": "NENNE TIERE OHNE BEINE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-46",
       "level": "hard",
-      "text": "NENNE TIERE MIT MEHR ALS VIER BEINEN!"
+      "text": "NENNE TIERE MIT MEHR ALS VIER BEINEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-47",
       "level": "hard",
-      "text": "NENNE TIERE MIT SCHNABEL!"
+      "text": "NENNE TIERE MIT SCHNABEL!",
+      "pack": "alltag"
     },
     {
       "id": "hard-48",
       "level": "hard",
-      "text": "NENNE TIERE MIT TARNFARBE!"
+      "text": "NENNE TIERE MIT TARNFARBE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-49",
       "level": "hard",
-      "text": "NENNE TIERE, DIE EIER LEGEN!"
+      "text": "NENNE TIERE, DIE EIER LEGEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-50",
       "level": "hard",
-      "text": "NENNE TIERE, DIE IM RUDEL LEBEN!"
+      "text": "NENNE TIERE, DIE IM RUDEL LEBEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-51",
       "level": "hard",
-      "text": "NENNE PFLANZEN MIT DORNEN!"
+      "text": "NENNE PFLANZEN MIT DORNEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-52",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: ESSBARE WURZELN!"
+      "text": "NENNE EINEN BEGRIFF ZU: ESSBARE WURZELN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-53",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: FERMENTIERTE LEBENSMITTEL!"
+      "text": "NENNE EINEN BEGRIFF ZU: FERMENTIERTE LEBENSMITTEL!",
+      "pack": "alltag"
     },
     {
       "id": "hard-54",
       "level": "hard",
-      "text": "NENNE GEWÜRZE AUS SAMEN!"
+      "text": "NENNE GEWÜRZE AUS SAMEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-55",
       "level": "hard",
-      "text": "NENNE GERICHTE AUS ANDEREN LÄNDERN!"
+      "text": "NENNE GERICHTE AUS ANDEREN LÄNDERN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-56",
       "level": "hard",
-      "text": "NENNE EINEN BEGRIFF ZU: TRADITIONELLE FESTE!"
+      "text": "NENNE EINEN BEGRIFF ZU: TRADITIONELLE FESTE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-57",
       "level": "hard",
-      "text": "NENNE BERUFE MIT SCHUTZKLEIDUNG!"
+      "text": "NENNE BERUFE MIT SCHUTZKLEIDUNG!",
+      "pack": "alltag"
     },
     {
       "id": "hard-58",
       "level": "hard",
-      "text": "NENNE BERUFE MIT NACHTSCHICHT!"
+      "text": "NENNE BERUFE MIT NACHTSCHICHT!",
+      "pack": "alltag"
     },
     {
       "id": "hard-59",
       "level": "hard",
-      "text": "NENNE DINGE IM FORSCHUNGSLABOR!"
+      "text": "NENNE DINGE IM FORSCHUNGSLABOR!",
+      "pack": "alltag"
     },
     {
       "id": "hard-60",
       "level": "hard",
-      "text": "NENNE DINGE IN EINER RAUMSTATION!"
+      "text": "NENNE DINGE IN EINER RAUMSTATION!",
+      "pack": "alltag"
     },
     {
       "id": "hard-61",
       "level": "hard",
-      "text": "NENNE DINGE AUF EINER LANDKARTE!"
+      "text": "NENNE DINGE AUF EINER LANDKARTE!",
+      "pack": "alltag"
     },
     {
       "id": "hard-62",
       "level": "hard",
-      "text": "NENNE DINGE, DIE MAN KALIBRIERT!"
+      "text": "NENNE DINGE, DIE MAN KALIBRIERT!",
+      "pack": "alltag"
     },
     {
       "id": "hard-63",
       "level": "hard",
-      "text": "NENNE DINGE MIT ZAHNRÄDERN!"
+      "text": "NENNE DINGE MIT ZAHNRÄDERN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-64",
       "level": "hard",
-      "text": "NENNE DINGE MIT MAGNETEN!"
+      "text": "NENNE DINGE MIT MAGNETEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-65",
       "level": "hard",
-      "text": "NENNE DINGE MIT EINEM ABLAUFDATUM!"
+      "text": "NENNE DINGE MIT EINEM ABLAUFDATUM!",
+      "pack": "alltag"
     },
     {
       "id": "hard-66",
       "level": "hard",
-      "text": "NENNE DINGE, DIE EIN PASSWORT BRAUCHEN!"
+      "text": "NENNE DINGE, DIE EIN PASSWORT BRAUCHEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-67",
       "level": "hard",
-      "text": "NENNE DINGE, DIE MAN RESERVIERT!"
+      "text": "NENNE DINGE, DIE MAN RESERVIERT!",
+      "pack": "alltag"
     },
     {
       "id": "hard-68",
       "level": "hard",
-      "text": "NENNE DINGE, DIE MAN VERSICHERT!"
+      "text": "NENNE DINGE, DIE MAN VERSICHERT!",
+      "pack": "alltag"
     },
     {
       "id": "hard-69",
       "level": "hard",
-      "text": "NENNE DINGE, DIE MAN ARCHIVIERT!"
+      "text": "NENNE DINGE, DIE MAN ARCHIVIERT!",
+      "pack": "alltag"
     },
     {
       "id": "hard-70",
       "level": "hard",
-      "text": "NENNE DINGE, DIE MAN NICHT MIT WASSER LÖSCHT!"
+      "text": "NENNE DINGE, DIE MAN NICHT MIT WASSER LÖSCHT!",
+      "pack": "alltag"
     },
     {
       "id": "hard-71",
       "level": "hard",
-      "text": "NENNE DINGE, DIE UNTER DRUCK STEHEN!"
+      "text": "NENNE DINGE, DIE UNTER DRUCK STEHEN!",
+      "pack": "alltag"
     },
     {
       "id": "hard-72",
       "level": "hard",
-      "text": "NENNE DINGE, DIE MAN IM MIKROSKOP SIEHT!"
+      "text": "NENNE DINGE, DIE MAN IM MIKROSKOP SIEHT!",
+      "pack": "alltag"
     },
     {
       "id": "hard-73",
       "level": "hard",
-      "text": "NENNE DINGE, DIE MAN MIT EINEM TELESKOP SIEHT!"
+      "text": "NENNE DINGE, DIE MAN MIT EINEM TELESKOP SIEHT!",
+      "pack": "alltag"
     },
     {
       "id": "hard-74",
       "level": "hard",
-      "text": "NENNE DINGE, DIE IN SCHICHTEN AUFGEBAUT SIND!"
+      "text": "NENNE DINGE, DIE IN SCHICHTEN AUFGEBAUT SIND!",
+      "pack": "alltag"
     },
     {
       "id": "hard-75",
       "level": "hard",
-      "text": "NENNE DINGE, DIE SICH SPIEGELN!"
+      "text": "NENNE DINGE, DIE SICH SPIEGELN!",
+      "pack": "alltag"
+    },
+    {
+      "id": "mario-01",
+      "level": "easy",
+      "text": "Nenne eine Figur aus einem Super-Mario-Spiel!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-02",
+      "level": "easy",
+      "text": "Nenne einen Gegner aus einem Mario-Spiel!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-03",
+      "level": "normal",
+      "text": "Nenne ein Power-up aus einem Mario-Spiel!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-04",
+      "level": "normal",
+      "text": "Nenne einen Gegenstand aus Mario Kart!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-05",
+      "level": "normal",
+      "text": "Nenne eine Strecke aus Mario Kart!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-06",
+      "level": "easy",
+      "text": "Nenne eine spielbare Figur aus Mario Kart!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-07",
+      "level": "normal",
+      "text": "Nenne einen Ort oder ein Königreich aus einem Mario-Spiel!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-08",
+      "level": "easy",
+      "text": "Nenne ein Videospiel mit Mario im Titel!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-09",
+      "level": "easy",
+      "text": "Nenne etwas, das Mario einsammeln kann!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-10",
+      "level": "normal",
+      "text": "Nenne eine Figur aus der Welt von Donkey Kong!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-11",
+      "level": "normal",
+      "text": "Nenne etwas, das man in einem Mario-Level finden kann!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-12",
+      "level": "hard",
+      "text": "Nenne einen Boss aus einem Mario-Spiel!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-13",
+      "level": "easy",
+      "text": "Nenne eine Sportart, die Mario in einem Spiel betreibt!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-14",
+      "level": "normal",
+      "text": "Nenne eine Figur, die schon in einem Mario-Party-Spiel vorkam!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-15",
+      "level": "hard",
+      "text": "Nenne ein Mario-Spiel, das kein klassisches Jump ’n’ Run ist!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-16",
+      "level": "normal",
+      "text": "Nenne eine Fähigkeit oder Aktion, die Mario in einem Spiel ausführen kann!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-17",
+      "level": "hard",
+      "text": "Nenne ein Fahrzeug oder Gefährt aus einem Mario-Spiel!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-18",
+      "level": "normal",
+      "text": "Nenne eine Figur, die schon einmal Mario geholfen hat!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-19",
+      "level": "hard",
+      "text": "Nenne eine Art von Level oder Spielwelt aus einem Mario-Spiel!",
+      "pack": "mario"
+    },
+    {
+      "id": "mario-20",
+      "level": "easy",
+      "text": "Nenne etwas, das Mario im Kampf gegen Gegner benutzen kann!",
+      "pack": "mario"
+    },
+    {
+      "id": "minecraft-01",
+      "level": "easy",
+      "text": "Nenne einen Mob aus Minecraft!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-02",
+      "level": "easy",
+      "text": "Nenne einen Block aus Minecraft!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-03",
+      "level": "easy",
+      "text": "Nenne einen Gegenstand, den man in Minecraft herstellen kann!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-04",
+      "level": "easy",
+      "text": "Nenne etwas Essbares aus Minecraft!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-05",
+      "level": "normal",
+      "text": "Nenne ein Biom aus Minecraft!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-06",
+      "level": "normal",
+      "text": "Nenne etwas, das man im Nether finden kann!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-07",
+      "level": "normal",
+      "text": "Nenne etwas, das man aus einem Erz herstellen kann!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-08",
+      "level": "normal",
+      "text": "Nenne etwas, das man mit Redstone bauen kann!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-09",
+      "level": "easy",
+      "text": "Nenne einen Gegenstand aus einem Minecraft-Inventar!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-10",
+      "level": "easy",
+      "text": "Nenne etwas, das man in einem Minecraft-Dorf findet!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-11",
+      "level": "normal",
+      "text": "Nenne ein Werkzeug aus Minecraft!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-12",
+      "level": "normal",
+      "text": "Nenne ein Tier, das in Minecraft vorkommt!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-13",
+      "level": "hard",
+      "text": "Nenne einen feindlichen Mob aus Minecraft!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-14",
+      "level": "easy",
+      "text": "Nenne ein Baumaterial für ein Minecraft-Haus!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-15",
+      "level": "normal",
+      "text": "Nenne etwas, das man in Minecraft anbauen kann!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-16",
+      "level": "hard",
+      "text": "Nenne etwas, das man in Minecraft verzaubern kann!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-17",
+      "level": "normal",
+      "text": "Nenne einen Gegenstand, den man beim Erkunden mitnehmen sollte!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-18",
+      "level": "normal",
+      "text": "Nenne einen Ort oder ein Bauwerk, das in Minecraft natürlich vorkommt!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-19",
+      "level": "hard",
+      "text": "Nenne etwas, das man mit einem Ofen in Minecraft herstellen kann!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "minecraft-20",
+      "level": "easy",
+      "text": "Nenne etwas, das man in Minecraft bauen könnte!",
+      "pack": "minecraft"
+    },
+    {
+      "id": "pokemon-01",
+      "level": "easy",
+      "text": "Nenne ein Pokémon der ersten Generation!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-02",
+      "level": "normal",
+      "text": "Nenne ein legendäres Pokémon!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-03",
+      "level": "easy",
+      "text": "Nenne ein Wasser-Pokémon!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-04",
+      "level": "easy",
+      "text": "Nenne ein Feuer-Pokémon!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-05",
+      "level": "normal",
+      "text": "Nenne ein Pokémon, das sich entwickeln kann!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-06",
+      "level": "hard",
+      "text": "Nenne eine Pokémon-Attacke!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-07",
+      "level": "normal",
+      "text": "Nenne einen Pokémon-Typ!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-08",
+      "level": "hard",
+      "text": "Nenne eine Region aus den Pokémon-Spielen!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-09",
+      "level": "normal",
+      "text": "Nenne eine Figur aus den Pokémon-Spielen oder der Serie!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-10",
+      "level": "easy",
+      "text": "Nenne ein Pokémon, das wie ein Tier aussieht!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-11",
+      "level": "normal",
+      "text": "Nenne ein Pokémon mit zwei Typen!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-12",
+      "level": "normal",
+      "text": "Nenne ein Pokémon, das fliegen kann!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-13",
+      "level": "hard",
+      "text": "Nenne einen Gegenstand, den Trainer in Pokémon benutzen!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-14",
+      "level": "normal",
+      "text": "Nenne ein Elektro-Pokémon!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "pokemon-15",
+      "level": "easy",
+      "text": "Nenne ein Pokémon, dessen Namen du kennst!",
+      "pack": "pokemon"
+    },
+    {
+      "id": "gaming-01",
+      "level": "easy",
+      "text": "Nenne eine bekannte Videospielheldin oder einen Videospielhelden!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-02",
+      "level": "normal",
+      "text": "Nenne einen Bösewicht aus einem Videospiel!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-03",
+      "level": "easy",
+      "text": "Nenne ein Spiel von Nintendo!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-04",
+      "level": "normal",
+      "text": "Nenne ein Videospiel mit offener Welt!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-05",
+      "level": "easy",
+      "text": "Nenne ein Videospiel, das man zu zweit spielen kann!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-06",
+      "level": "normal",
+      "text": "Nenne etwas, das in einem Jump ’n’ Run vorkommt!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-07",
+      "level": "easy",
+      "text": "Nenne einen Gegenstand, den man in einem Videospiel sammeln kann!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-08",
+      "level": "normal",
+      "text": "Nenne ein Videospiel, in dem Tiere vorkommen!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-09",
+      "level": "easy",
+      "text": "Nenne eine Spielekonsole!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-10",
+      "level": "normal",
+      "text": "Nenne ein Videospiel, in dem man etwas bauen kann!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-11",
+      "level": "normal",
+      "text": "Nenne ein Rennspiel!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-12",
+      "level": "hard",
+      "text": "Nenne eine Videospielreihe mit mehreren Teilen!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-13",
+      "level": "normal",
+      "text": "Nenne ein Videospiel mit Rätseln!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-14",
+      "level": "easy",
+      "text": "Nenne etwas, das eine Spielfigur in einem Spiel tun kann!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-15",
+      "level": "hard",
+      "text": "Nenne ein Spiel, in dem man eine eigene Figur erstellen kann!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-16",
+      "level": "normal",
+      "text": "Nenne ein Videospiel mit einer Fantasiewelt!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-17",
+      "level": "normal",
+      "text": "Nenne ein Spiel, in dem man gegen andere Spieler antritt!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-18",
+      "level": "hard",
+      "text": "Nenne eine Stadt oder einen Ort aus einem Videospiel!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-19",
+      "level": "easy",
+      "text": "Nenne ein Spiel, das man auf einem Handy spielen kann!",
+      "pack": "gaming"
+    },
+    {
+      "id": "gaming-20",
+      "level": "normal",
+      "text": "Nenne ein Videospiel, in dem Musik wichtig ist!",
+      "pack": "gaming"
+    },
+    {
+      "id": "filme-01",
+      "level": "easy",
+      "text": "Nenne eine Figur aus einem Disney-Film!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-02",
+      "level": "normal",
+      "text": "Nenne einen Pixar-Film!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-03",
+      "level": "normal",
+      "text": "Nenne eine Marvel-Superheldin oder einen Marvel-Superhelden!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-04",
+      "level": "normal",
+      "text": "Nenne einen Bösewicht aus einem Film!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-05",
+      "level": "easy",
+      "text": "Nenne einen Animationsfilm!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-06",
+      "level": "normal",
+      "text": "Nenne eine Figur aus Harry Potter!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-07",
+      "level": "hard",
+      "text": "Nenne eine Figur aus Star Wars!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-08",
+      "level": "easy",
+      "text": "Nenne ein berühmtes Tier aus einem Film oder einer Serie!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-09",
+      "level": "normal",
+      "text": "Nenne einen Film, in dem Roboter vorkommen!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-10",
+      "level": "easy",
+      "text": "Nenne eine Serie, die Kinder oder Jugendliche gern sehen!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-11",
+      "level": "normal",
+      "text": "Nenne einen Film, der auf einem Buch basiert!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-12",
+      "level": "hard",
+      "text": "Nenne einen Film oder eine Serie mit Zeitreisen!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-13",
+      "level": "easy",
+      "text": "Nenne etwas, das man im Kino kaufen kann!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-14",
+      "level": "normal",
+      "text": "Nenne eine Figur, die in einem Film eine besondere Kraft hat!",
+      "pack": "filme"
+    },
+    {
+      "id": "filme-15",
+      "level": "hard",
+      "text": "Nenne einen Film mit einer Reise in eine andere Welt!",
+      "pack": "filme"
+    },
+    {
+      "id": "schule-01",
+      "level": "easy",
+      "text": "Nenne etwas, das in einen Schulranzen gehört!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-02",
+      "level": "easy",
+      "text": "Nenne ein Schulfach!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-03",
+      "level": "easy",
+      "text": "Nenne etwas, das man auf dem Pausenhof sehen kann!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-04",
+      "level": "easy",
+      "text": "Nenne ein Hobby von Kindern oder Jugendlichen!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-05",
+      "level": "easy",
+      "text": "Nenne etwas, das es auf einem Kindergeburtstag geben kann!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-06",
+      "level": "easy",
+      "text": "Nenne etwas, das man in den Ferien machen kann!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-07",
+      "level": "normal",
+      "text": "Nenne eine Attraktion in einem Freizeitpark!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-08",
+      "level": "easy",
+      "text": "Nenne ein Spiel, das man draußen spielen kann!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-09",
+      "level": "normal",
+      "text": "Nenne etwas, das Kinder sammeln können!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-10",
+      "level": "normal",
+      "text": "Nenne etwas, das man für ein Kunstprojekt braucht!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-11",
+      "level": "normal",
+      "text": "Nenne einen Ort für einen Schulausflug!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-12",
+      "level": "easy",
+      "text": "Nenne etwas, das man in der Pause essen kann!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-13",
+      "level": "hard",
+      "text": "Nenne etwas, das man in einer Schulbibliothek finden kann!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-14",
+      "level": "normal",
+      "text": "Nenne etwas, das man für einen Sporttag braucht!",
+      "pack": "schule"
+    },
+    {
+      "id": "schule-15",
+      "level": "hard",
+      "text": "Nenne eine Fähigkeit, die man in der Schule lernt!",
+      "pack": "schule"
+    },
+    {
+      "id": "fantasie-01",
+      "level": "easy",
+      "text": "Nenne etwas, das ein Alien auf der Erde komisch finden könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-02",
+      "level": "easy",
+      "text": "Nenne etwas, das niemals auf eine Pizza sollte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-03",
+      "level": "easy",
+      "text": "Nenne etwas, das ein Zombie zum Frühstück essen könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-04",
+      "level": "easy",
+      "text": "Nenne etwas, das ein Drache in seinem Kühlschrank haben könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-05",
+      "level": "normal",
+      "text": "Nenne etwas, das man besser nicht in einem Aufzug macht!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-06",
+      "level": "normal",
+      "text": "Nenne etwas, das ein Roboter falsch verstehen könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-07",
+      "level": "easy",
+      "text": "Nenne etwas, das unter deinem Bett wohnen könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-08",
+      "level": "normal",
+      "text": "Nenne etwas, das ein König verbieten könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-09",
+      "level": "easy",
+      "text": "Nenne etwas, das man lieber nicht in der Badewanne findet!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-10",
+      "level": "normal",
+      "text": "Erfinde eine peinliche Superkraft für einen Superhelden!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-11",
+      "level": "easy",
+      "text": "Nenne etwas, das ein Einhorn auf einer Party mitbringen könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-12",
+      "level": "normal",
+      "text": "Nenne einen schlechten Namen für ein Raumschiff!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-13",
+      "level": "easy",
+      "text": "Nenne etwas, das ein sprechender Kühlschrank sagen könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-14",
+      "level": "normal",
+      "text": "Nenne etwas, das ein Monster heimlich sammelt!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-15",
+      "level": "normal",
+      "text": "Erfinde einen seltsamen Beruf für eine Hexe!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-16",
+      "level": "hard",
+      "text": "Nenne eine Ausrede, warum ein Drache zu spät zur Schule kommt!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-17",
+      "level": "easy",
+      "text": "Nenne etwas, das eine Piratin auf dem Mond finden könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-18",
+      "level": "normal",
+      "text": "Nenne ein Geräusch, das ein Zaubertrank machen könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-19",
+      "level": "hard",
+      "text": "Nenne eine Regel für eine Schule voller Gespenster!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "fantasie-20",
+      "level": "normal",
+      "text": "Nenne etwas, das ein Zeitreisender aus Versehen mitbringen könnte!",
+      "pack": "fantasie"
+    },
+    {
+      "id": "natur-01",
+      "level": "easy",
+      "text": "Nenne ein Tier, das fliegen kann!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-02",
+      "level": "easy",
+      "text": "Nenne ein Tier mit Streifen!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-03",
+      "level": "easy",
+      "text": "Nenne ein Tier, das im Wasser lebt!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-04",
+      "level": "normal",
+      "text": "Nenne ein Tier mit Hörnern oder Geweih!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-05",
+      "level": "normal",
+      "text": "Nenne ein Tier, das Eier legt!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-06",
+      "level": "easy",
+      "text": "Nenne ein Tier, das für Menschen gefährlich sein kann!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-07",
+      "level": "hard",
+      "text": "Nenne ein Tier, das Winterschlaf oder Winterruhe hält!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-08",
+      "level": "easy",
+      "text": "Nenne ein Tier aus dem Dschungel!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-09",
+      "level": "easy",
+      "text": "Nenne etwas, das im Wald wächst!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-10",
+      "level": "normal",
+      "text": "Nenne ein Tier, das in einer Wüste leben kann!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-11",
+      "level": "normal",
+      "text": "Nenne ein Tier, das nachts aktiv ist!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-12",
+      "level": "hard",
+      "text": "Nenne eine Pflanze, die man essen kann!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-13",
+      "level": "normal",
+      "text": "Nenne einen Vogel, der in Europa vorkommt!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-14",
+      "level": "normal",
+      "text": "Nenne ein Tier mit einem Panzer oder einer Schale!",
+      "pack": "natur"
+    },
+    {
+      "id": "natur-15",
+      "level": "hard",
+      "text": "Nenne etwas, das man am Strand in der Natur finden kann!",
+      "pack": "natur"
+    }
+  ],
+  "packs": [
+    {
+      "id": "alltag",
+      "name": "Alltag & Allgemeinwissen",
+      "description": "Alltägliches, Wissen und Wortschatz",
+      "symbol": "✦"
+    },
+    {
+      "id": "mario",
+      "name": "Super Mario",
+      "description": "Figuren, Welten und Abenteuer",
+      "symbol": "★"
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "description": "Blöcke, Mobs und Bauideen",
+      "symbol": "▦"
+    },
+    {
+      "id": "pokemon",
+      "name": "Pokémon",
+      "description": "Pokémon, Typen und Trainer",
+      "symbol": "◉"
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming & Videospiele",
+      "description": "Helden, Konsolen und Spielwelten",
+      "symbol": "◆"
+    },
+    {
+      "id": "filme",
+      "name": "Filme & Serien",
+      "description": "Leinwand, Helden und Geschichten",
+      "symbol": "▣"
+    },
+    {
+      "id": "schule",
+      "name": "Kinder & Schule",
+      "description": "Pausen, Hobbys und Ferien",
+      "symbol": "✎"
+    },
+    {
+      "id": "fantasie",
+      "name": "Quatsch & Fantasie",
+      "description": "Verrückte Ideen sind willkommen",
+      "symbol": "✳"
+    },
+    {
+      "id": "natur",
+      "name": "Tiere & Natur",
+      "description": "Vom Wald bis unter Wasser",
+      "symbol": "❀"
     }
   ]
 }

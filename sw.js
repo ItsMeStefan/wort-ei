@@ -1,4 +1,4 @@
-const CACHE='wort-ei-v1';
+const CACHE='wort-ei-v2';
 const ASSETS=['./','./index.html','./css/style.css','./js/app.js','./js/game.js','./js/audio.js','./categories.json','./assets/icon.svg','./manifest.webmanifest'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
