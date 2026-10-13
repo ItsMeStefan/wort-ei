@@ -1,0 +1,8 @@
+{
+  "name": "wort-ei-multiplayer",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-13",
+  "durable_objects": {"bindings": [{"name": "GAME_ROOMS", "class_name": "GameRoom"}]},
+  "exports": {"GameRoom": {"type": "durable-object", "storage": "sqlite"}},
+  "vars": {"ALLOWED_ORIGINS": "http://localhost:16005,http://localhost:8080"}
+}
