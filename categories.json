@@ -1,0 +1,1129 @@
+{
+  "categories": [
+    {
+      "id": "easy-1",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: PIZZABELÄGE!"
+    },
+    {
+      "id": "easy-2",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: OBSTSORTEN!"
+    },
+    {
+      "id": "easy-3",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: GEMÜSESORTEN!"
+    },
+    {
+      "id": "easy-4",
+      "level": "easy",
+      "text": "NENNE TIERE AUF DEM BAUERNHOF!"
+    },
+    {
+      "id": "easy-5",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: HAUSTIERE!"
+    },
+    {
+      "id": "easy-6",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: WILDE TIERE!"
+    },
+    {
+      "id": "easy-7",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: VÖGEL!"
+    },
+    {
+      "id": "easy-8",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: FISCHE!"
+    },
+    {
+      "id": "easy-9",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: INSEKTEN!"
+    },
+    {
+      "id": "easy-10",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: BLUMEN!"
+    },
+    {
+      "id": "easy-11",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: BÄUME!"
+    },
+    {
+      "id": "easy-12",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: FARBEN!"
+    },
+    {
+      "id": "easy-13",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: KÖRPERTEILE!"
+    },
+    {
+      "id": "easy-14",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: KLEIDUNGSSTÜCKE!"
+    },
+    {
+      "id": "easy-15",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: SCHUHE!"
+    },
+    {
+      "id": "easy-16",
+      "level": "easy",
+      "text": "NENNE DINGE IM BADEZIMMER!"
+    },
+    {
+      "id": "easy-17",
+      "level": "easy",
+      "text": "NENNE DINGE IN DER KÜCHE!"
+    },
+    {
+      "id": "easy-18",
+      "level": "easy",
+      "text": "NENNE DINGE IM KÜHLSCHRANK!"
+    },
+    {
+      "id": "easy-19",
+      "level": "easy",
+      "text": "NENNE DINGE IM KINDERZIMMER!"
+    },
+    {
+      "id": "easy-20",
+      "level": "easy",
+      "text": "NENNE DINGE IM WOHNZIMMER!"
+    },
+    {
+      "id": "easy-21",
+      "level": "easy",
+      "text": "NENNE DINGE IM SUPERMARKT!"
+    },
+    {
+      "id": "easy-22",
+      "level": "easy",
+      "text": "NENNE DINGE IN DER SCHULE!"
+    },
+    {
+      "id": "easy-23",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: SCHULFÄCHER!"
+    },
+    {
+      "id": "easy-24",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: SPIELZEUGE!"
+    },
+    {
+      "id": "easy-25",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: BRETTSPIELE!"
+    },
+    {
+      "id": "easy-26",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: SPORTARTEN!"
+    },
+    {
+      "id": "easy-27",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: MUSIKINSTRUMENTE!"
+    },
+    {
+      "id": "easy-28",
+      "level": "easy",
+      "text": "NENNE BERUFE!"
+    },
+    {
+      "id": "easy-29",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: FAHRZEUGE!"
+    },
+    {
+      "id": "easy-30",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: AUTOMARKEN!"
+    },
+    {
+      "id": "easy-31",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: LÄNDER!"
+    },
+    {
+      "id": "easy-32",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: STÄDTE!"
+    },
+    {
+      "id": "easy-33",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: SÜSSIGKEITEN!"
+    },
+    {
+      "id": "easy-34",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: EISSORTEN!"
+    },
+    {
+      "id": "easy-35",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: GETRÄNKE!"
+    },
+    {
+      "id": "easy-36",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: FRÜHSTÜCKSGERICHTE!"
+    },
+    {
+      "id": "easy-37",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: NUDELSORTEN!"
+    },
+    {
+      "id": "easy-38",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: BROTSORTEN!"
+    },
+    {
+      "id": "easy-39",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: KÄSESORTEN!"
+    },
+    {
+      "id": "easy-40",
+      "level": "easy",
+      "text": "NENNE DINGE AM STRAND!"
+    },
+    {
+      "id": "easy-41",
+      "level": "easy",
+      "text": "NENNE DINGE IM URLAUBSKOFFER!"
+    },
+    {
+      "id": "easy-42",
+      "level": "easy",
+      "text": "NENNE DINGE, DIE FLIEGEN KÖNNEN!"
+    },
+    {
+      "id": "easy-43",
+      "level": "easy",
+      "text": "NENNE DINGE MIT RÄDERN!"
+    },
+    {
+      "id": "easy-44",
+      "level": "easy",
+      "text": "NENNE DINGE, DIE RUND SIND!"
+    },
+    {
+      "id": "easy-45",
+      "level": "easy",
+      "text": "NENNE DINGE AUS HOLZ!"
+    },
+    {
+      "id": "easy-46",
+      "level": "easy",
+      "text": "NENNE DINGE AUS METALL!"
+    },
+    {
+      "id": "easy-47",
+      "level": "easy",
+      "text": "NENNE DINGE AUS PAPIER!"
+    },
+    {
+      "id": "easy-48",
+      "level": "easy",
+      "text": "NENNE DINGE, DIE MAN ESSEN KANN!"
+    },
+    {
+      "id": "easy-49",
+      "level": "easy",
+      "text": "NENNE DINGE, DIE KALT SIND!"
+    },
+    {
+      "id": "easy-50",
+      "level": "easy",
+      "text": "NENNE DINGE, DIE HEISS SIND!"
+    },
+    {
+      "id": "easy-51",
+      "level": "easy",
+      "text": "NENNE TIERE MIT VIER BEINEN!"
+    },
+    {
+      "id": "easy-52",
+      "level": "easy",
+      "text": "NENNE TIERE MIT STREIFEN!"
+    },
+    {
+      "id": "easy-53",
+      "level": "easy",
+      "text": "NENNE TIERE MIT FLÜGELN!"
+    },
+    {
+      "id": "easy-54",
+      "level": "easy",
+      "text": "NENNE DINGE IM GARTEN!"
+    },
+    {
+      "id": "easy-55",
+      "level": "easy",
+      "text": "NENNE DINGE AUF DEM SPIELPLATZ!"
+    },
+    {
+      "id": "easy-56",
+      "level": "easy",
+      "text": "NENNE DINGE IM SCHWIMMBAD!"
+    },
+    {
+      "id": "easy-57",
+      "level": "easy",
+      "text": "NENNE DINGE IM ZOO!"
+    },
+    {
+      "id": "easy-58",
+      "level": "easy",
+      "text": "NENNE DINGE AUF EINER GEBURTSTAGSPARTY!"
+    },
+    {
+      "id": "easy-59",
+      "level": "easy",
+      "text": "NENNE DINGE AN WEIHNACHTEN!"
+    },
+    {
+      "id": "easy-60",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: WOCHENTAGE!"
+    },
+    {
+      "id": "easy-61",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: MONATE!"
+    },
+    {
+      "id": "easy-62",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: JAHRESZEITEN!"
+    },
+    {
+      "id": "easy-63",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: WETTERARTEN!"
+    },
+    {
+      "id": "easy-64",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: GERÄUSCHE VON TIEREN!"
+    },
+    {
+      "id": "easy-65",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: MÄRCHENFIGUREN!"
+    },
+    {
+      "id": "easy-66",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: SUPERHELDEN!"
+    },
+    {
+      "id": "easy-67",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: COMICFIGUREN!"
+    },
+    {
+      "id": "easy-68",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: COMPUTERSPIELE!"
+    },
+    {
+      "id": "easy-69",
+      "level": "easy",
+      "text": "NENNE EINEN BEGRIFF ZU: MINECRAFT-GEGENSTÄNDE!"
+    },
+    {
+      "id": "easy-70",
+      "level": "easy",
+      "text": "NENNE DINGE IN EINER BÄCKEREI!"
+    },
+    {
+      "id": "easy-71",
+      "level": "easy",
+      "text": "NENNE DINGE AUF EINEM BAUERNHOF!"
+    },
+    {
+      "id": "easy-72",
+      "level": "easy",
+      "text": "NENNE DINGE AUF DEM SCHREIBTISCH!"
+    },
+    {
+      "id": "easy-73",
+      "level": "easy",
+      "text": "NENNE DINGE IM AUTO!"
+    },
+    {
+      "id": "easy-74",
+      "level": "easy",
+      "text": "NENNE DINGE IM RUCKSACK!"
+    },
+    {
+      "id": "easy-75",
+      "level": "easy",
+      "text": "NENNE DINGE, DIE LEUCHTEN!"
+    },
+    {
+      "id": "normal-1",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: HAUPTSTÄDTE!"
+    },
+    {
+      "id": "normal-2",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: FLÜSSE!"
+    },
+    {
+      "id": "normal-3",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: GEBIRGE!"
+    },
+    {
+      "id": "normal-4",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: INSELN!"
+    },
+    {
+      "id": "normal-5",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: MEERE!"
+    },
+    {
+      "id": "normal-6",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: PLANETEN!"
+    },
+    {
+      "id": "normal-7",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: STERNE UND STERNBILDER!"
+    },
+    {
+      "id": "normal-8",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: DINOSAURIER!"
+    },
+    {
+      "id": "normal-9",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: REPTILIEN!"
+    },
+    {
+      "id": "normal-10",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: MEERESTIERE!"
+    },
+    {
+      "id": "normal-11",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: NACHTAKTIVE TIERE!"
+    },
+    {
+      "id": "normal-12",
+      "level": "normal",
+      "text": "NENNE TIERE MIT PANZER!"
+    },
+    {
+      "id": "normal-13",
+      "level": "normal",
+      "text": "NENNE TIERE, DIE SPRINGEN!"
+    },
+    {
+      "id": "normal-14",
+      "level": "normal",
+      "text": "NENNE TIERE, DIE WINTERSCHLAF HALTEN!"
+    },
+    {
+      "id": "normal-15",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: BAUMARTEN!"
+    },
+    {
+      "id": "normal-16",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: KRÄUTER!"
+    },
+    {
+      "id": "normal-17",
+      "level": "normal",
+      "text": "NENNE GEWÜRZE!"
+    },
+    {
+      "id": "normal-18",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: PILZARTEN!"
+    },
+    {
+      "id": "normal-19",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: NÜSSE!"
+    },
+    {
+      "id": "normal-20",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: BEEREN!"
+    },
+    {
+      "id": "normal-21",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: KUCHENARTEN!"
+    },
+    {
+      "id": "normal-22",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: SUPPEN!"
+    },
+    {
+      "id": "normal-23",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: SAUCEN!"
+    },
+    {
+      "id": "normal-24",
+      "level": "normal",
+      "text": "NENNE GERICHTE AUS KARTOFFELN!"
+    },
+    {
+      "id": "normal-25",
+      "level": "normal",
+      "text": "NENNE GERICHTE MIT REIS!"
+    },
+    {
+      "id": "normal-26",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: FAST-FOOD-GERICHTE!"
+    },
+    {
+      "id": "normal-27",
+      "level": "normal",
+      "text": "NENNE DINGE VOM GRILL!"
+    },
+    {
+      "id": "normal-28",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: KÜCHENGERÄTE!"
+    },
+    {
+      "id": "normal-29",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: WERKZEUGE!"
+    },
+    {
+      "id": "normal-30",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: ELEKTROGERÄTE!"
+    },
+    {
+      "id": "normal-31",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: APPS AUF DEM SMARTPHONE!"
+    },
+    {
+      "id": "normal-32",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: WEBSEITENARTEN!"
+    },
+    {
+      "id": "normal-33",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: FILMGENRES!"
+    },
+    {
+      "id": "normal-34",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: MUSIKRICHTUNGEN!"
+    },
+    {
+      "id": "normal-35",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: TÄNZE!"
+    },
+    {
+      "id": "normal-36",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: OLYMPISCHE SPORTARTEN!"
+    },
+    {
+      "id": "normal-37",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: BALLSPORTARTEN!"
+    },
+    {
+      "id": "normal-38",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: WASSERSPORTARTEN!"
+    },
+    {
+      "id": "normal-39",
+      "level": "normal",
+      "text": "NENNE EINEN BEGRIFF ZU: WINTERSPORTARTEN!"
+    },
+    {
+      "id": "normal-40",
+      "level": "normal",
+      "text": "NENNE BERUFE IM KRANKENHAUS!"
+    },
+    {
+      "id": "normal-41",
+      "level": "normal",
+      "text": "NENNE BERUFE IM RESTAURANT!"
+    },
+    {
+      "id": "normal-42",
+      "level": "normal",
+      "text": "NENNE BERUFE AUF EINER BAUSTELLE!"
+    },
+    {
+      "id": "normal-43",
+      "level": "normal",
+      "text": "NENNE DINGE IM MUSEUM!"
+    },
+    {
+      "id": "normal-44",
+      "level": "normal",
+      "text": "NENNE DINGE IM THEATER!"
+    },
+    {
+      "id": "normal-45",
+      "level": "normal",
+      "text": "NENNE DINGE AM BAHNHOF!"
+    },
+    {
+      "id": "normal-46",
+      "level": "normal",
+      "text": "NENNE DINGE AM FLUGHAFEN!"
+    },
+    {
+      "id": "normal-47",
+      "level": "normal",
+      "text": "NENNE DINGE AUF EINEM SCHIFF!"
+    },
+    {
+      "id": "normal-48",
+      "level": "normal",
+      "text": "NENNE DINGE BEIM CAMPING!"
+    },
+    {
+      "id": "normal-49",
+      "level": "normal",
+      "text": "NENNE DINGE IM WALD!"
+    },
+    {
+      "id": "normal-50",
+      "level": "normal",
+      "text": "NENNE DINGE IN DER WÜSTE!"
+    },
+    {
+      "id": "normal-51",
+      "level": "normal",
+      "text": "NENNE DINGE UNTER WASSER!"
+    },
+    {
+      "id": "normal-52",
+      "level": "normal",
+      "text": "NENNE DINGE AM HIMMEL!"
+    },
+    {
+      "id": "normal-53",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE KNISTERN!"
+    },
+    {
+      "id": "normal-54",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE KLEBEN!"
+    },
+    {
+      "id": "normal-55",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN FALTEN KANN!"
+    },
+    {
+      "id": "normal-56",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN SAMMELN KANN!"
+    },
+    {
+      "id": "normal-57",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN AUSLEIHEN KANN!"
+    },
+    {
+      "id": "normal-58",
+      "level": "normal",
+      "text": "NENNE DINGE MIT KNÖPFEN!"
+    },
+    {
+      "id": "normal-59",
+      "level": "normal",
+      "text": "NENNE DINGE MIT REISSVERSCHLUSS!"
+    },
+    {
+      "id": "normal-60",
+      "level": "normal",
+      "text": "NENNE DINGE MIT EINEM GRIFF!"
+    },
+    {
+      "id": "normal-61",
+      "level": "normal",
+      "text": "NENNE DINGE MIT EINEM DECKEL!"
+    },
+    {
+      "id": "normal-62",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE BATTERIE BRAUCHEN!"
+    },
+    {
+      "id": "normal-63",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN REPARIEREN KANN!"
+    },
+    {
+      "id": "normal-64",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN VERLIEREN KANN!"
+    },
+    {
+      "id": "normal-65",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN TEILEN KANN!"
+    },
+    {
+      "id": "normal-66",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN MESSEN KANN!"
+    },
+    {
+      "id": "normal-67",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN WERFEN KANN!"
+    },
+    {
+      "id": "normal-68",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN STAPELN KANN!"
+    },
+    {
+      "id": "normal-69",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN SCHÜTTELN KANN!"
+    },
+    {
+      "id": "normal-70",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE MAN AUFBLASEN KANN!"
+    },
+    {
+      "id": "normal-71",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE IM KREIS FAHREN!"
+    },
+    {
+      "id": "normal-72",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE WASSER BRAUCHEN!"
+    },
+    {
+      "id": "normal-73",
+      "level": "normal",
+      "text": "NENNE DINGE, DIE STROM BRAUCHEN!"
+    },
+    {
+      "id": "normal-74",
+      "level": "normal",
+      "text": "NENNE DINGE AUS GLAS!"
+    },
+    {
+      "id": "normal-75",
+      "level": "normal",
+      "text": "NENNE DINGE AUS STOFF!"
+    },
+    {
+      "id": "hard-1",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: ERFINDUNGEN!"
+    },
+    {
+      "id": "hard-2",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: BERÜHMTE ERFINDERINNEN UND ERFINDER!"
+    },
+    {
+      "id": "hard-3",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: WISSENSCHAFTLICHE BERUFE!"
+    },
+    {
+      "id": "hard-4",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: CHEMISCHE ELEMENTE!"
+    },
+    {
+      "id": "hard-5",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: ENERGIEQUELLEN!"
+    },
+    {
+      "id": "hard-6",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: ERNEUERBARE ENERGIEN!"
+    },
+    {
+      "id": "hard-7",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: NATURKATASTROPHEN!"
+    },
+    {
+      "id": "hard-8",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: WOLKENARTEN!"
+    },
+    {
+      "id": "hard-9",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: GESTEINSARTEN!"
+    },
+    {
+      "id": "hard-10",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: EDELSTEINE!"
+    },
+    {
+      "id": "hard-11",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: MINERALIEN!"
+    },
+    {
+      "id": "hard-12",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: VULKANISCHE BEGRIFFE!"
+    },
+    {
+      "id": "hard-13",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: KONTINENTE UND OZEANE!"
+    },
+    {
+      "id": "hard-14",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: EUROPÄISCHE HAUPTSTÄDTE!"
+    },
+    {
+      "id": "hard-15",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: LÄNDER IN AFRIKA!"
+    },
+    {
+      "id": "hard-16",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: LÄNDER IN SÜDAMERIKA!"
+    },
+    {
+      "id": "hard-17",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: INSELSTAATEN!"
+    },
+    {
+      "id": "hard-18",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: SPRACHEN DER WELT!"
+    },
+    {
+      "id": "hard-19",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: WÄHRUNGEN!"
+    },
+    {
+      "id": "hard-20",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: HISTORISCHE BAUWERKE!"
+    },
+    {
+      "id": "hard-21",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: WELTWUNDER!"
+    },
+    {
+      "id": "hard-22",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: BERÜHMTE GEMÄLDE!"
+    },
+    {
+      "id": "hard-23",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: KUNSTSTILE!"
+    },
+    {
+      "id": "hard-24",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: ARCHITEKTURBEGRIFFE!"
+    },
+    {
+      "id": "hard-25",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: MUSIKINSTRUMENTE MIT SAITEN!"
+    },
+    {
+      "id": "hard-26",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: MUSIKINSTRUMENTE ZUM BLASEN!"
+    },
+    {
+      "id": "hard-27",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: KOMPONISTINNEN UND KOMPONISTEN!"
+    },
+    {
+      "id": "hard-28",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: BUCHGENRES!"
+    },
+    {
+      "id": "hard-29",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: GEDICHTFORMEN!"
+    },
+    {
+      "id": "hard-30",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: REDEWENDUNGEN MIT TIEREN!"
+    },
+    {
+      "id": "hard-31",
+      "level": "hard",
+      "text": "NENNE WÖRTER MIT DREI SILBEN!"
+    },
+    {
+      "id": "hard-32",
+      "level": "hard",
+      "text": "NENNE WÖRTER MIT DOPPELTEM KONSONANTEN!"
+    },
+    {
+      "id": "hard-33",
+      "level": "hard",
+      "text": "NENNE WÖRTER, DIE AUF -HEIT ENDEN!"
+    },
+    {
+      "id": "hard-34",
+      "level": "hard",
+      "text": "NENNE WÖRTER MIT STUMMEM H!"
+    },
+    {
+      "id": "hard-35",
+      "level": "hard",
+      "text": "NENNE WÖRTER MIT MEHREREN BEDEUTUNGEN!"
+    },
+    {
+      "id": "hard-36",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE MAN RECYCELN KANN!"
+    },
+    {
+      "id": "hard-37",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE BIOLOGISCH ABBAUBAR SIND!"
+    },
+    {
+      "id": "hard-38",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE MAN NICHT ANFASSEN SOLLTE!"
+    },
+    {
+      "id": "hard-39",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE LAUTLOS SEIN KÖNNEN!"
+    },
+    {
+      "id": "hard-40",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE NUR IM DUNKELN SICHTBAR SIND!"
+    },
+    {
+      "id": "hard-41",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE SICH VON SELBST BEWEGEN!"
+    },
+    {
+      "id": "hard-42",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE SICH AUSDEHNEN!"
+    },
+    {
+      "id": "hard-43",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE SCHWIMMEN UND FLIEGEN KÖNNEN!"
+    },
+    {
+      "id": "hard-44",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE IM WASSER WACHSEN!"
+    },
+    {
+      "id": "hard-45",
+      "level": "hard",
+      "text": "NENNE TIERE OHNE BEINE!"
+    },
+    {
+      "id": "hard-46",
+      "level": "hard",
+      "text": "NENNE TIERE MIT MEHR ALS VIER BEINEN!"
+    },
+    {
+      "id": "hard-47",
+      "level": "hard",
+      "text": "NENNE TIERE MIT SCHNABEL!"
+    },
+    {
+      "id": "hard-48",
+      "level": "hard",
+      "text": "NENNE TIERE MIT TARNFARBE!"
+    },
+    {
+      "id": "hard-49",
+      "level": "hard",
+      "text": "NENNE TIERE, DIE EIER LEGEN!"
+    },
+    {
+      "id": "hard-50",
+      "level": "hard",
+      "text": "NENNE TIERE, DIE IM RUDEL LEBEN!"
+    },
+    {
+      "id": "hard-51",
+      "level": "hard",
+      "text": "NENNE PFLANZEN MIT DORNEN!"
+    },
+    {
+      "id": "hard-52",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: ESSBARE WURZELN!"
+    },
+    {
+      "id": "hard-53",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: FERMENTIERTE LEBENSMITTEL!"
+    },
+    {
+      "id": "hard-54",
+      "level": "hard",
+      "text": "NENNE GEWÜRZE AUS SAMEN!"
+    },
+    {
+      "id": "hard-55",
+      "level": "hard",
+      "text": "NENNE GERICHTE AUS ANDEREN LÄNDERN!"
+    },
+    {
+      "id": "hard-56",
+      "level": "hard",
+      "text": "NENNE EINEN BEGRIFF ZU: TRADITIONELLE FESTE!"
+    },
+    {
+      "id": "hard-57",
+      "level": "hard",
+      "text": "NENNE BERUFE MIT SCHUTZKLEIDUNG!"
+    },
+    {
+      "id": "hard-58",
+      "level": "hard",
+      "text": "NENNE BERUFE MIT NACHTSCHICHT!"
+    },
+    {
+      "id": "hard-59",
+      "level": "hard",
+      "text": "NENNE DINGE IM FORSCHUNGSLABOR!"
+    },
+    {
+      "id": "hard-60",
+      "level": "hard",
+      "text": "NENNE DINGE IN EINER RAUMSTATION!"
+    },
+    {
+      "id": "hard-61",
+      "level": "hard",
+      "text": "NENNE DINGE AUF EINER LANDKARTE!"
+    },
+    {
+      "id": "hard-62",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE MAN KALIBRIERT!"
+    },
+    {
+      "id": "hard-63",
+      "level": "hard",
+      "text": "NENNE DINGE MIT ZAHNRÄDERN!"
+    },
+    {
+      "id": "hard-64",
+      "level": "hard",
+      "text": "NENNE DINGE MIT MAGNETEN!"
+    },
+    {
+      "id": "hard-65",
+      "level": "hard",
+      "text": "NENNE DINGE MIT EINEM ABLAUFDATUM!"
+    },
+    {
+      "id": "hard-66",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE EIN PASSWORT BRAUCHEN!"
+    },
+    {
+      "id": "hard-67",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE MAN RESERVIERT!"
+    },
+    {
+      "id": "hard-68",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE MAN VERSICHERT!"
+    },
+    {
+      "id": "hard-69",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE MAN ARCHIVIERT!"
+    },
+    {
+      "id": "hard-70",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE MAN NICHT MIT WASSER LÖSCHT!"
+    },
+    {
+      "id": "hard-71",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE UNTER DRUCK STEHEN!"
+    },
+    {
+      "id": "hard-72",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE MAN IM MIKROSKOP SIEHT!"
+    },
+    {
+      "id": "hard-73",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE MAN MIT EINEM TELESKOP SIEHT!"
+    },
+    {
+      "id": "hard-74",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE IN SCHICHTEN AUFGEBAUT SIND!"
+    },
+    {
+      "id": "hard-75",
+      "level": "hard",
+      "text": "NENNE DINGE, DIE SICH SPIEGELN!"
+    }
+  ]
+}
