@@ -59,5 +59,5 @@ test('balanced draws use every category before repeating and avoid a direct repe
 
 test('an empty difficulty combination raises a readable error', () => {
   const game=newGame({packs:['mario'],difficulty:'hard'});
-  assert.throws(()=>pickCategory(game,[{id:'one',pack:'mario',level:'easy',text:'Einfach'}]),/keine Kategorien/);
+  assert.throws(()=>pickCategory(game,[{id:'one',pack:'mario',level:'easy',text:'Einfach'}]),/keine Aufgaben/);
 });

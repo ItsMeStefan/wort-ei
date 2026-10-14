@@ -1,19 +1,49 @@
+import {CHANCES, EGG_TYPES, RULES, eligibleRules, ruleCompatible} from './extras.js';
+
 export const STORAGE_KEY = 'wort-ei-v1';
 export const PACK_IDS = ['alltag','mario','minecraft','pokemon','gaming','filme','schule','fantasie','natur'];
-export const defaults = { count: 3, names: [], strikes: 3, difficulty: 'all', packs: [...PACK_IDS], min: 20, max: 50, sound: true, volume: 0.8, reduced: false };
+export const defaults = { count: 3, names: [], strikes: 3, difficulty: 'all', packs: [...PACK_IDS], min: 20, max: 50, sound: true, volume: 0.8, reduced: false, eggsEnabled: true, eggChance: 'normal', eggTypes: EGG_TYPES.map(type=>type.id), turboFactor: 0.6, rulesEnabled: true, ruleChance: 'normal' };
 export function clampSettings(raw = {}) {
   const number = (x, fallback, lo, hi) => Math.min(hi, Math.max(lo, Number.isFinite(Number(x)) ? Math.round(Number(x)) : fallback));
   const count = number(raw.count, 3, 2, 10);
   const min = number(raw.min, 20, 3, 180);
   const max = number(raw.max, 50, min, 300);
-  return { count, names: Array.from({length: count}, (_, i) => String(raw.names?.[i] || '').trim().slice(0, 24)), strikes: number(raw.strikes, 3, 1, 10), difficulty: ['all','easy','normal','hard'].includes(raw.difficulty) ? raw.difficulty : 'all', packs: Array.isArray(raw.packs) ? [...new Set(raw.packs.filter(id=>PACK_IDS.includes(id)))] : [...PACK_IDS], min, max: Math.max(min,max), sound: raw.sound !== false, volume: Math.min(1, Math.max(0, Number(raw.volume ?? 0.8))), reduced: raw.reduced === true };
+  return { count, names: Array.from({length: count}, (_, i) => String(raw.names?.[i] || '').trim().slice(0, 24)), strikes: number(raw.strikes, 3, 1, 10), difficulty: ['all','easy','normal','hard'].includes(raw.difficulty) ? raw.difficulty : 'all', packs: Array.isArray(raw.packs) ? [...new Set(raw.packs.filter(id=>PACK_IDS.includes(id)))] : [...PACK_IDS], min, max: Math.max(min,max), sound: raw.sound !== false, volume: Math.min(1, Math.max(0, Number(raw.volume ?? 0.8))), reduced: raw.reduced === true,
+    eggsEnabled: raw.eggsEnabled === true, eggChance: CHANCES[raw.eggChance] === undefined ? 'normal' : raw.eggChance,
+    eggTypes: Array.isArray(raw.eggTypes) ? [...new Set(raw.eggTypes.filter(id=>EGG_TYPES.some(type=>type.id===id)))] : EGG_TYPES.map(type=>type.id),
+    turboFactor: Math.min(0.9,Math.max(0.4,Number(raw.turboFactor) || 0.6)),
+    rulesEnabled: raw.rulesEnabled === true, ruleChance: CHANCES[raw.ruleChance] === undefined ? 'normal' : raw.ruleChance };
 }
 export function matchingCategories(settings, categories) {
   return categories.filter(c => settings.packs.includes(c.pack || 'alltag') && (settings.difficulty === 'all' || c.level === settings.difficulty));
 }
 export function newGame(settings) {
   const s = clampSettings(settings);
-  return { version: 1, settings: s, players: s.names.map((name,i) => ({ id: i, name: name || `Spieler ${i+1}`, points: 0 })), phase: 'ready', round: 0, starter: 0, current: 0, category: null, used: [], deadline: null, burstAt: null, penaltyApplied: false, winner: null };
+  return { version: 1, settings: s, players: s.names.map((name,i) => ({ id: i, name: name || `Spieler ${i+1}`, points: 0 })), phase: 'ready', round: 0, starter: 0, current: 0, category: null, used: [], deadline: null, burstAt: null, penaltyApplied: false, winner: null, eggType: 'normal', usedEggs: [], rule: null, usedRules: [], chaosAt: null, chaosChanged: false, chaosNoticeUntil: null, ruleDropped: false };
+}
+export function pickRoundEgg(game, random = Math.random) {
+  const selected = EGG_TYPES.filter(type=>game.settings.eggTypes.includes(type.id));
+  if (!game.settings.eggsEnabled || !selected.length || random() >= CHANCES[game.settings.eggChance]) return 'normal';
+  let available = selected.filter(type=>!game.usedEggs.includes(type.id));
+  if (!available.length) { game.usedEggs=[]; available=selected; }
+  if (available.length>1) available=available.filter(type=>type.id!==game.eggType);
+  const chosen=available[Math.min(available.length-1,Math.floor(random()*available.length))];
+  game.usedEggs.push(chosen.id);
+  return chosen.id;
+}
+export function pickRoundRule(game, category, random = Math.random) {
+  const difficulty=game.settings.difficulty==='all'?category.level:game.settings.difficulty;
+  const eligible=eligibleRules(category,difficulty);
+  if (!game.settings.rulesEnabled || !eligible.length || random() >= CHANCES[game.settings.ruleChance]) return null;
+  let available=eligible.filter(rule=>!game.usedRules.includes(rule.id));
+  if (!available.length) { game.usedRules=[]; available=eligible; }
+  if (available.length>1) available=available.filter(rule=>rule.id!==game.rule?.id);
+  const weights=difficulty==='hard'?{easy:0.6,normal:1,hard:3}:difficulty==='normal'?{easy:1,normal:2,hard:0}:{easy:1,normal:0,hard:0};
+  const total=available.reduce((sum,rule)=>sum+weights[rule.level],0);
+  let draw=random()*total;
+  const chosen=available.find(rule=>(draw-=weights[rule.level])<0) || available.at(-1);
+  game.usedRules.push(chosen.id);
+  return chosen;
 }
 export function activeIds(game) { return game.players.filter(p => p.points < game.settings.strikes).map(p => p.id); }
 export function nextActive(game, from) {
@@ -27,7 +57,7 @@ export function nextActive(game, from) {
 }
 export function pickCategory(game, categories, random = Math.random) {
   const pool = matchingCategories(game.settings, categories);
-  if (!pool.length) throw new Error(game.settings.packs.length ? 'Für diese Themenpakete und Schwierigkeit gibt es keine Kategorien.' : 'Wähle mindestens ein Themenpaket aus.');
+  if (!pool.length) throw new Error(game.settings.packs.length ? 'Für diese Themenpakete und Schwierigkeit gibt es keine Aufgaben.' : 'Wähle mindestens ein Themenpaket aus.');
   let unused = pool.filter(c => !game.used.includes(c.id));
   if (!unused.length) { game.used = []; unused = pool; }
   const previousId = game.category?.id;
@@ -49,21 +79,44 @@ export function prepareRound(game, categories, random = Math.random) {
   game.starter = game.round === 0 ? activeIds(game)[0] : nextActive(game, game.starter);
   game.current = game.starter;
   game.category = pickCategory(game, categories, random);
+  game.eggType = pickRoundEgg(game, random);
+  game.rule = pickRoundRule(game, game.category, random);
   game.round++;
   game.deadline = null; game.burstAt = null; game.penaltyApplied = false;
+  game.chaosAt=null; game.chaosChanged=false; game.chaosNoticeUntil=null; game.ruleDropped=false;
   game.phase = 'preview';
   return true;
 }
 export function startRound(game, now = Date.now(), random = Math.random) {
   if (game.phase !== 'preview') return false;
   const range = game.settings.max - game.settings.min + 1;
-  game.deadline = now + (game.settings.min + Math.floor(random() * range)) * 1000;
+  const normalSeconds=game.settings.min + Math.floor(random() * range);
+  const seconds=game.eggType==='turbo'?Math.max(3,Math.round(normalSeconds*game.settings.turboFactor)):normalSeconds;
+  game.deadline = now + seconds * 1000;
+  if (game.eggType==='chaos') game.chaosAt=now+(5+Math.floor(random()*Math.max(10,Math.round(game.settings.max*1.5))))*1000;
   game.phase = 'running'; return true;
+}
+export function triggerChaos(game, categories, now = Date.now(), random = Math.random) {
+  if (game.phase!=='running' || game.eggType!=='chaos' || game.chaosChanged || !Number.isFinite(game.chaosAt) || now<game.chaosAt || now>=game.deadline) return false;
+  game.chaosChanged=true; game.chaosAt=null;
+  const alternatives=matchingCategories(game.settings,categories).filter(c=>c.id!==game.category.id);
+  if (!alternatives.length) return false;
+  let pool=alternatives;
+  if (game.rule) {
+    const compatible=pool.filter(c=>ruleCompatible(game.rule,c));
+    if (compatible.length) pool=compatible;
+    else {game.rule=null;game.ruleDropped=true;}
+  }
+  const unused=pool.filter(c=>!game.used.includes(c.id));
+  if (unused.length) pool=unused;
+  game.category=pickCategory(game,pool,random);
+  game.chaosNoticeUntil=now+2500;
+  return true;
 }
 export function expire(game, now = Date.now()) {
   if (game.phase !== 'running' || !Number.isFinite(game.deadline) || now < game.deadline) return false;
-  game.phase = 'burst'; game.burstAt = now;
-  if (!game.penaltyApplied) { game.players[game.current].points++; game.penaltyApplied = true; }
+  game.phase = 'burst'; game.burstAt = now; game.chaosAt=null; game.chaosNoticeUntil=null;
+  if (!game.penaltyApplied) { game.players[game.current].points+=EGG_TYPES.find(type=>type.id===game.eggType)?.penalty ?? 1; game.penaltyApplied = true; }
   return true;
 }
 export function pass(game, now = Date.now()) {
@@ -83,6 +136,11 @@ export function normalizeRestored(game, now = Date.now()) {
   if (!game || game.version !== 1 || !Array.isArray(game.players)) return null;
   if (!Array.isArray(game.settings?.packs)) game.settings = {...game.settings, packs:['alltag']};
   game.settings = clampSettings(game.settings);
+  if (!EGG_TYPES.some(type=>type.id===game.eggType)) game.eggType='normal';
+  if (!Array.isArray(game.usedEggs)) game.usedEggs=[];
+  if (!Array.isArray(game.usedRules)) game.usedRules=[];
+  if (!game.rule || !RULES.some(rule=>rule.id===game.rule.id) || !ruleCompatible(game.rule,game.category || {})) game.rule=null;
+  if (game.chaosChanged !== true) game.chaosChanged=false;
   if (game.phase === 'running') expire(game, now);
   if (game.phase === 'burst' && now - (game.burstAt || now) > 1600) finishBurst(game);
   return game;
