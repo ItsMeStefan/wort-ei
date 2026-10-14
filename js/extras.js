@@ -3,8 +3,8 @@ export const CHANCES = {rare:0.10,normal:0.25,often:0.50,always:1};
 export const EGG_TYPES = [
   {id:'turbo',name:'Turbo-Ei',description:'Diese Runde könnte besonders schnell vorbei sein!',penalty:1},
   {id:'double',name:'Doppel-Matsch-Ei',description:'Beim Zerplatzen gibt es zwei Strafpunkte.',penalty:2},
-  {id:'golden',name:'Goldenes Ei',description:'Beim Zerplatzen gibt es keinen Strafpunkt.',penalty:0},
-  {id:'chaos',name:'Chaos-Ei',description:'Das Thema kann sich plötzlich ändern.',penalty:1}
+  {id:'golden',name:'Goldenes Ei',description:'Wird erst nach dem Zerplatzen enthüllt und rettet vor einem Strafpunkt.',penalty:0},
+  {id:'chaos',name:'Chaos-Ei',description:'Das Thema kann bis zu dreimal überraschend wechseln – auch beim schnellen Weitergeben.',penalty:1}
 ];
 
 // Ohne Metadaten sind nur universelle Regeln zulässig. Neue Kategorien können

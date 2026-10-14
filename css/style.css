@@ -37,3 +37,143 @@
 
 /* Prevent double-tap zoom during fast play. */
 html,body,button{touch-action:manipulation}
+/* Spielwelten: one layout, five skins. Egg mechanics remain in egg-* classes. */
+.world-mode{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:12px 0 8px;font-size:13px;font-weight:800}.world-mode select{min-width:0;max-width:180px;padding:7px;border:2px solid #c8bda7;border-radius:8px;background:#fffdf7}.world-random{display:flex;flex-wrap:wrap;gap:5px 10px;border:1px solid #c8bda7;border-radius:9px;padding:7px 10px;font-size:11px}.world-random[hidden]{display:none}.world-random legend{font-weight:800}.world-random label{white-space:nowrap}.world-random input{accent-color:#e9672c}
+.theme-retro{--world-bg:#101427;--world-surface:#1d2340;--world-ink:#fff2ba;--world-accent:#fddd5a;--world-line:#5ff2d3;--world-egg:#fff2bb;--world-shadow:#ec70c6;--world-shape:8px;font-family:'Courier New',monospace}.theme-halloween{--world-bg:#211630;--world-surface:#342349;--world-ink:#fff1d5;--world-accent:#ffae4c;--world-line:#c78be3;--world-egg:#f3e4d7;--world-shadow:#89bb68;--world-shape:22px;font-family:Georgia,serif}.theme-neon{--world-bg:#090f20;--world-surface:#101c32;--world-ink:#e4fbff;--world-accent:#72f5e9;--world-line:#796cff;--world-egg:#ccf9ff;--world-shadow:#5d5bea;--world-shape:12px;font-family:Arial,Helvetica,sans-serif}.theme-winter{--world-bg:#dbeef6;--world-surface:#f5fcff;--world-ink:#16394e;--world-accent:#207da4;--world-line:#78b8d0;--world-egg:#fff;--world-shadow:#93d2eb;--world-shape:18px;font-family:Arial,Helvetica,sans-serif}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter){background:var(--world-bg);color:var(--world-ink)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .setup-form{background:var(--world-surface);color:var(--world-ink);border-color:var(--world-line);border-radius:var(--world-shape);box-shadow:7px 8px 0 var(--world-shadow)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) :is(.primary,.secondary,.theme-open){background:var(--world-accent);color:var(--world-bg);border-color:var(--world-line);border-radius:var(--world-shape)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) :is(.eyebrow,.egg-status h2,.egg-button-label,.pack-tag){color:var(--world-accent)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) :is(.score,.rule-callout){background:var(--world-surface);color:var(--world-ink);border-color:var(--world-line)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) :is(.world-tile,.form-grid input,.form-grid select,.timer-fields input,.world-mode select){background:var(--world-surface);color:var(--world-ink);border-color:var(--world-line)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .egg{background:var(--world-egg);box-shadow:inset -18px -20px 0 var(--world-shadow),10px 12px 0 var(--world-line)}
+.theme-retro .egg{border-radius:0;clip-path:polygon(27% 0,73% 0,73% 5%,84% 5%,84% 15%,92% 15%,92% 31%,100% 31%,100% 76%,92% 76%,92% 89%,83% 89%,83% 96%,68% 96%,68% 100%,32% 100%,32% 96%,17% 96%,17% 89%,8% 89%,8% 76%,0 76%,0 31%,8% 31%,8% 15%,17% 15%,17% 5%,27% 5%);border:8px solid #101427;image-rendering:pixelated}.theme-retro .egg-face,.theme-retro .egg-shine{image-rendering:pixelated}.theme-retro .egg-wrap::before{filter:none}.theme-retro .burst .burst-flash{font-family:monospace;letter-spacing:8px;color:#fddd5a}.theme-retro .play{background:repeating-linear-gradient(0deg,transparent 0 15px,#ffffff08 16px 17px)}.theme-retro .play .prompt h1{font-family:monospace;font-weight:900;text-shadow:3px 3px 0 #5c4ca2}.theme-retro .egg-turbo .egg-wrap::before,.theme-retro .egg-turbo .egg-wrap::after{content:'ϟ';color:#fddd5a}.theme-retro .egg-chaos .egg{animation:retro-glitch 2.6s steps(2,end) infinite}@keyframes retro-glitch{2%{transform:translateX(4px)}4%,100%{transform:translateX(0)}}
+.theme-halloween .play{background:radial-gradient(circle at 90% 10%,#f8d79b 0 4%,transparent 4.2%),linear-gradient(160deg,#261833,#211630)}.theme-halloween .play::before{content:'☾   ✦   🦇';position:absolute;right:4%;top:11%;opacity:.3;pointer-events:none}.theme-halloween .egg{border-color:#312341}.theme-halloween .egg-face{filter:sepia(.3)}.theme-halloween .burst .splatter{background:#80ba63}.theme-halloween .egg-turbo .egg-wrap::before,.theme-halloween .egg-turbo .egg-wrap::after{color:#9df36e}
+.theme-neon .play{background:linear-gradient(90deg,#72f5e908 1px,transparent 1px),linear-gradient(#72f5e908 1px,transparent 1px);background-size:28px 28px}.theme-neon .egg{border-color:#72f5e9;filter:drop-shadow(0 0 12px #72f5e9aa)}.theme-neon .prompt h1{text-shadow:0 0 15px #72f5e955}.theme-neon .burst .burst-flash{color:#72f5e9;text-shadow:0 0 16px #72f5e9}.theme-neon .egg-chaos .egg{animation:neon-glitch 3s steps(2,end) infinite}@keyframes neon-glitch{2%{filter:hue-rotate(90deg) drop-shadow(4px 0 #d377ff)}4%,100%{filter:drop-shadow(0 0 12px #72f5e9aa)}}
+.theme-winter .play{background:radial-gradient(circle at 8% 17%,#fff 0 2px,transparent 3px),radial-gradient(circle at 78% 13%,#fff 0 3px,transparent 4px),linear-gradient(#dbeef6,#c3e5f3)}.theme-winter .egg{border-color:#2e687d}.theme-winter .egg-shine::after{content:'❄';position:absolute;left:5px;top:18px;color:#88c6df;font-size:28px}.theme-winter .burst .burst-flash{color:#fff;text-shadow:0 0 10px #397a9f}
+/* Special-egg signs remain recognizable in every new world, regardless of color. */
+.app-shell:not(.theme-classic) .play.egg-turbo .egg::after{content:'ϟ';position:absolute;right:17%;top:20%;font-size:36px;font-weight:900;color:#d84e31}
+.app-shell:not(.theme-classic) .play.egg-double .egg::before,.app-shell:not(.theme-classic) .play.egg-double .egg::after{content:'⌁';color:#c5243f}
+.app-shell:not(.theme-classic) .play.egg-golden .egg{background:#ffe193!important;box-shadow:inset -18px -20px 0 #d5a537,10px 12px 0 #9d7529!important}
+.app-shell:not(.theme-classic) .play.egg-golden .egg::after{content:'★';position:absolute;right:16%;top:17%;font-size:30px;color:#966815}
+.app-shell:not(.theme-classic) .play.egg-chaos .egg::after{content:'✳';position:absolute;right:12%;top:18%;font-size:32px;color:#8d68be}
+.app-shell:not(.theme-classic) .play.egg-normal .egg::after{content:'●';position:absolute;right:17%;top:20%;font-size:18px;color:#bd8752}
+.theme-retro .play.egg-double .egg::before,.theme-retro .play.egg-double .egg::after{font-family:monospace;transform:rotate(25deg)}
+@media(prefers-reduced-motion:reduce){.theme-retro .egg-chaos .egg,.theme-neon .egg-chaos .egg{animation:none!important}}
+.reduced .theme-retro .egg-chaos .egg,.reduced .theme-neon .egg-chaos .egg{animation:none!important}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .round-meta{color:var(--world-ink);border-color:var(--world-line)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .hint{color:var(--world-ink)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .game-tags .pack-tag{background:var(--world-surface);color:var(--world-ink);border:1px solid var(--world-line)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .game-tags .egg-type-tag{background:var(--world-accent);color:var(--world-bg);border-color:var(--world-line)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .icon-button{color:var(--world-ink)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .score-points{color:var(--world-accent)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .world-random{border-color:var(--world-line)}
+.theme-retro .burst .burst-art{filter:drop-shadow(6px 6px 0 #ec70c6)}
+.theme-halloween .burst .burst-art{filter:drop-shadow(0 0 12px #9df36e)}
+.theme-neon .burst .burst-art{filter:drop-shadow(0 0 14px #72f5e9)}
+.theme-winter .burst .burst-art{filter:drop-shadow(0 0 14px #fff)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) :is(.names input,.category-controls-row select,.category-controls-row input){color:var(--world-ink);border-color:var(--world-line);background:var(--world-surface)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .names input::placeholder{color:var(--world-ink);opacity:.7}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) :is(.variant-content fieldset>p,.category-top>p:last-child,.category-status,.category-pack-copy small,.category-level-count,.category-pack-count){color:var(--world-ink)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) :is(.category-back,.category-actions button,.category-reveal,.category-pack-symbol){color:var(--world-accent)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) :is(.category-controls,.category-group){border-color:var(--world-line)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .category-content li{border-color:var(--world-line)}
+/* The egg type wins when a world palette and a mechanic need the same surface. */
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .play.egg-turbo .egg{background:#fff2a7;box-shadow:inset -18px -20px 0 #edcc69,10px 12px 0 var(--world-line)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .play.egg-double .egg{background:#ffe0d8;box-shadow:inset -18px -20px 0 #e9a599,10px 12px 0 var(--world-line)}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .play.egg-chaos .egg{background:radial-gradient(circle at 28% 27%,#ffc1de 0 9%,transparent 10%),radial-gradient(circle at 73% 38%,#a0e9d5 0 10%,transparent 11%),radial-gradient(circle at 40% 75%,#d5c3fb 0 8%,transparent 9%),#fff8d8;box-shadow:inset -18px -20px 0 #d8c9ae,10px 12px 0 var(--world-line)}
+@media(max-width:400px){.play .scores{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}.play .score{min-width:0;width:100%;max-width:none;gap:3px;padding:4px;font-size:10px}.play .score-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.play .score-points{flex:none}}
+/* Separate Spielwelten gallery. Previews reuse the real egg markup and theme classes. */
+.world-brief{margin:14px 0 0}.world-page{width:min(980px,100%);margin:0 auto;padding:18px 28px max(80px,env(safe-area-inset-bottom));}.world-page-head h1{font-size:clamp(36px,5vw,62px);letter-spacing:-.06em;line-height:1;margin:0 0 10px}.world-page-head>p:last-child{margin:0 0 24px}.world-page .category-back{margin-bottom:22px}.world-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.world-card{min-width:0;width:100%;padding:8px;text-align:left;border:3px solid #cbbca5;border-radius:18px;background:#fffdf7;color:#252427;transition:transform .16s,border-color .16s,box-shadow .16s}.world-card:hover{transform:translateY(-2px)}.world-card.selected{border-color:#e9672c;box-shadow:0 0 0 3px #e9672c44}.world-card:focus-visible{outline:3px solid #e9672c;outline-offset:3px}.world-card .world-preview{width:100%;height:160px;display:block;overflow:hidden;border-radius:11px;position:relative;color:var(--world-ink,#252427);background:var(--world-bg,#fff8e7)}.world-card .world-preview .play{width:100%;height:100%;min-height:0;margin:0;padding:12px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:0;overflow:hidden;color:var(--world-ink,#252427)}.world-preview-title{position:relative;z-index:2;display:block;max-width:100%;font-size:12px;font-weight:1000;letter-spacing:.08em;text-transform:uppercase}.world-preview-action{position:relative;z-index:2;display:block;padding:4px 12px;border-radius:7px;background:var(--world-accent,#ed6c2c);color:var(--world-bg,#fff);font-size:10px;font-weight:1000;letter-spacing:.08em}.world-card .world-preview .egg-wrap{width:76px;height:88px;flex:none;transform:rotate(-8deg)}.world-card .world-preview .egg{inset:0 3px 5px;border-width:3px;transform:none;animation:none}.world-card .world-preview .egg-face{transform:scale(.4);transform-origin:center}.world-card .world-preview .egg-shine{transform:scale(.55);transform-origin:top left}.world-card .world-preview .egg-shadow{display:none}.world-card .world-preview .egg::after{font-size:13px}.world-card-copy{display:grid;grid-template-columns:1fr auto;gap:3px 12px;align-items:center;padding:11px 7px 7px}.world-card-copy strong{font-size:18px;letter-spacing:-.03em}.world-card-copy small{font-size:12px;grid-column:1;color:#625f59}.world-card-check{grid-column:2;grid-row:1/3;display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#e9672c;color:#fff;font-size:17px;font-weight:900;opacity:0}.world-card.selected .world-card-check{opacity:1}.world-page-options{margin:24px 0 16px;padding:14px 18px;border:2px solid #cbbca5;border-radius:16px}.world-page-options .world-mode{margin:0 0 8px}.world-page-options .world-random{margin-top:10px}.world-page-footer{display:flex;justify-content:flex-end}.world-page-footer .primary{display:inline-flex;align-items:center;gap:12px;text-decoration:none;padding:13px 23px}
+.world-card .world-preview.theme-classic .play{background:#fff8e7;color:#252427}.world-card .world-preview.theme-classic .egg{background:#fffdf0;box-shadow:inset -8px -9px 0 #f7e7b7,5px 6px 0 #f7ca67;border-color:#282526;clip-path:none;border-radius:49% 49% 45% 45% / 57% 57% 42% 42%;filter:none}.world-card .world-preview.theme-retro .play{background:repeating-linear-gradient(0deg,#ffffff08 0 1px,transparent 1px 16px),#101427}.world-card .world-preview.theme-retro .egg{background:#fff2bb;box-shadow:inset -8px -9px 0 #ec70c6,5px 6px 0 #5ff2d3;border-color:#101427;border-radius:0;filter:none}.world-card .world-preview.theme-halloween .play{background:radial-gradient(circle at 88% 15%,#f8d79b 0 10%,transparent 10.5%),linear-gradient(160deg,#261833,#211630)}.world-card .world-preview.theme-halloween .egg{background:#f3e4d7;box-shadow:inset -8px -9px 0 #89bb68,5px 6px 0 #c78be3;border-color:#312341;clip-path:none;border-radius:49% 49% 45% 45% / 57% 57% 42% 42%;filter:none}.world-card .world-preview.theme-neon .play{background:linear-gradient(90deg,#72f5e91a 1px,transparent 1px),linear-gradient(#72f5e91a 1px,transparent 1px),#090f20;background-size:20px 20px}.world-card .world-preview.theme-neon .egg{background:#ccf9ff;box-shadow:inset -8px -9px 0 #5d5bea,5px 6px 0 #796cff;border-color:#72f5e9;clip-path:none;border-radius:49% 49% 45% 45% / 57% 57% 42% 42%;filter:drop-shadow(0 0 6px #72f5e9aa)}.world-card .world-preview.theme-winter .play{background:radial-gradient(circle at 18% 24%,#fff 0 2px,transparent 3px),radial-gradient(circle at 78% 36%,#fff 0 2px,transparent 3px),linear-gradient(#dbeef6,#c3e5f3)}.world-card .world-preview.theme-winter .egg{background:#fff;box-shadow:inset -8px -9px 0 #93d2eb,5px 6px 0 #78b8d0;border-color:#2e687d;clip-path:none;border-radius:49% 49% 45% 45% / 57% 57% 42% 42%;filter:none}
+.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .world-card{background:var(--world-surface);color:var(--world-ink);border-color:var(--world-line)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .world-card.selected{border-color:var(--world-accent);box-shadow:0 0 0 3px var(--world-accent)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .world-card-copy small{color:var(--world-ink)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .world-card-check{background:var(--world-accent);color:var(--world-bg)}.app-shell:is(.theme-retro,.theme-halloween,.theme-neon,.theme-winter) .world-page-options{border-color:var(--world-line);background:var(--world-surface)}
+@media(max-width:760px){.world-page{padding:14px 16px max(86px,env(safe-area-inset-bottom))}.world-gallery{grid-template-columns:1fr;gap:12px}.world-card .world-preview{height:145px}.world-page-head h1{font-size:clamp(32px,9vw,48px)}.world-page-options{padding:12px}}
+@media(prefers-reduced-motion:reduce){.world-card{transition:none}}
+/* The golden egg appears only after the ordinary burst has finished. */
+.gold-reveal .egg-status .eyebrow{color:#a66500;font-size:clamp(19px,4vw,34px);text-shadow:0 2px #fff2b3;animation:gold-title .45s both}
+.gold-reveal .egg-status h2{color:#9c5a00;animation:gold-title .55s .08s both}
+.gold-reveal .burst-art{position:relative;isolation:isolate;filter:drop-shadow(0 0 20px #ffd54f)!important}
+.gold-reveal .burst-art::before{content:'';position:absolute;inset:7%;z-index:-1;border-radius:50%;background:radial-gradient(circle,#fff3a6 0,#ffd54f80 36%,transparent 70%);animation:gold-aura 1.2s ease-out both}
+.gold-reveal .burst-art .splatter,.gold-reveal .burst-art .burst-flash{display:none}
+.gold-sparkles{position:absolute;inset:-10%;display:grid;place-items:center;color:#ffca35;font-size:clamp(30px,8vw,80px);letter-spacing:.12em;text-shadow:0 0 9px #fff,0 0 25px #ffc400;pointer-events:none;animation:gold-stars 1.1s ease-out both}
+.gold-reveal .hint{font-weight:900;color:#986000!important}
+.theme-retro .gold-reveal .gold-sparkles{font-family:monospace;text-shadow:4px 4px #a46c00}
+.theme-halloween .gold-reveal .burst-art::before{background:radial-gradient(circle,#fff3a6 0,#d99e4080 36%,transparent 70%)}
+.theme-neon .gold-reveal .gold-sparkles{text-shadow:0 0 12px #fff,0 0 28px #ffc400}
+.theme-winter .gold-reveal .gold-sparkles{color:#ffe99b}
+@keyframes gold-title{from{opacity:0;transform:scale(.75)}to{opacity:1;transform:scale(1)}}
+@keyframes gold-aura{from{opacity:0;transform:scale(.4)}60%{opacity:1}to{opacity:.7;transform:scale(1.45)}}
+@keyframes gold-stars{from{opacity:0;transform:scale(.45) rotate(-15deg)}50%{opacity:1}to{opacity:1;transform:scale(1.15) rotate(5deg)}}
+@media(prefers-reduced-motion:reduce){.gold-reveal *, .gold-reveal *::before{animation:none!important}}
+/* Chaos keeps the new task in the reading path and leaves the egg button free. */
+.chaos-notice .prompt{position:relative;z-index:1;width:min(100%,880px);padding:10px 16px 14px;border:4px solid #df3e53;border-radius:18px;background:#fff4bd;color:#302028;box-shadow:0 7px 0 #842c4d;text-align:center}
+.chaos-notice .prompt h1{color:#241d25;font-size:clamp(28px,5.4vw,58px);line-height:1.04;text-shadow:none!important}
+.chaos-banner{display:flex;justify-content:center;align-items:center;gap:12px;margin:3px auto 9px;color:#ba123f;font-size:clamp(20px,4.5vw,38px);line-height:1;font-weight:1000;letter-spacing:-.035em;pointer-events:none}
+.chaos-banner span{font-size:.8em}
+.chaos-alarm .prompt{animation:chaos-jolt .55s var(--chaos-delay) ease-out both,chaos-flash .75s var(--chaos-delay) ease-out both}
+.chaos-alarm .chaos-banner{animation:chaos-pop .45s var(--chaos-delay) cubic-bezier(.2,1.5,.4,1) both}
+.chaos-alarm .prompt h1{animation:chaos-pop .5s calc(80ms + var(--chaos-delay)) both}
+.theme-retro .chaos-notice .prompt{border-radius:0;border-color:#fddd5a;background:#251d45;box-shadow:6px 6px 0 #ec70c6}
+.theme-retro .chaos-notice .prompt h1{color:#fff8db}
+.theme-retro .chaos-banner{color:#fddd5a;font-family:monospace;letter-spacing:0}
+.theme-halloween .chaos-notice .prompt{border-color:#bdfb68;background:#39213f;box-shadow:0 7px 0 #15101d}
+.theme-halloween .chaos-notice .prompt h1{color:#fff3d5}
+.theme-halloween .chaos-banner{color:#c9fc76}
+.theme-neon .chaos-notice .prompt{border-color:#ff5fbd;background:#171233;box-shadow:0 0 20px #ff5fbd}
+.theme-neon .chaos-notice .prompt h1{color:#fff6fd}
+.theme-neon .chaos-banner{color:#ff89d2;text-shadow:0 0 14px #ff50bc}
+.theme-winter .chaos-notice .prompt{border-color:#3e82b1;background:#eefaff;box-shadow:0 7px 0 #88bdd6}
+.theme-winter .chaos-notice .prompt h1{color:#183b5b}
+.theme-winter .chaos-banner{color:#1a6d9e}
+@keyframes chaos-jolt{0%,30%,60%{transform:translateX(-7px) rotate(-1deg)}15%,45%,75%{transform:translateX(7px) rotate(1deg)}100%{transform:none}}
+@keyframes chaos-flash{0%,35%{filter:brightness(1.7)}100%{filter:brightness(1)}}
+@keyframes chaos-pop{from{opacity:0;transform:scale(.72)}to{opacity:1;transform:scale(1)}}
+@media(max-width:760px){.chaos-notice .prompt{padding:8px 10px 10px;border-width:3px}.chaos-notice .prompt h1{font-size:clamp(25px,7vw,38px)}.chaos-banner{font-size:clamp(19px,6vw,28px);gap:6px;margin-bottom:6px}}
+@media(max-height:650px){.chaos-notice .prompt{padding:5px 9px 7px}.chaos-notice .prompt h1{font-size:clamp(22px,5vh,30px)}.chaos-banner{margin:1px auto 4px;font-size:20px}}
+@media(prefers-reduced-motion:reduce){.chaos-alarm .prompt,.chaos-alarm .chaos-banner,.chaos-alarm .prompt h1{animation:none!important}}
+.chaos-frozen .egg-button{cursor:default;opacity:.65}
+.chaos-frozen .egg-button-label{color:#b12549;font-size:clamp(13px,2.5vw,18px)}
+.chaos-frozen .prompt{box-shadow:0 0 0 5px #fff7cb,0 9px 0 #842c4d}
+/* A fried egg is the shared visual end state for every egg type. */
+.fried-display{display:grid;place-items:center;margin-block:10px}
+.fried-egg{display:block;width:min(76vw,38svh,350px);height:auto;overflow:visible;pointer-events:none;transform-origin:center}
+.fried-shadow{fill:#c9ae82;opacity:.42}
+.fried-white{fill:#fffef3;stroke:#29272a;stroke-width:6;stroke-linejoin:round}
+.fried-yolk-shadow{fill:#e69a23}
+.fried-yolk{fill:#ffca39;stroke:#ac6d18;stroke-width:5}
+.fried-shine{fill:none;stroke:#fff5bc;stroke-width:10;stroke-linecap:round}
+.fried-eye{fill:#44280b}
+.fried-smile{fill:none;stroke:#78420f;stroke-width:4;stroke-linecap:round}
+.burst-art{position:relative}
+.burst-art>.fried-egg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);opacity:0}
+.burst .burst-art>.fried-egg{animation:fried-splat .55s .94s cubic-bezier(.18,1.3,.35,1) both}
+.result .fried-egg{animation:fried-settle .3s ease-out both}
+.gold-reveal .burst-art .egg-wrap{visibility:hidden}
+.gold-reveal .burst-art>.fried-egg{animation:gold-fried-splat .65s cubic-bezier(.18,1.3,.35,1) both!important}
+.egg-golden .fried-yolk{fill:#ffe36a;stroke:#bb841b}
+.egg-golden .fried-egg{filter:drop-shadow(0 0 14px #ffd340)}
+.theme-retro .fried-egg{shape-rendering:crispEdges;filter:drop-shadow(5px 5px 0 #ec70c6)}
+.theme-retro .fried-white{fill:#fff4d3;stroke:#101427;stroke-width:9}
+.theme-halloween .fried-white{fill:#e9f8cf;stroke:#312341}
+.theme-halloween .fried-yolk{fill:#ffae3d;stroke:#83420a}
+.theme-neon .fried-egg{filter:drop-shadow(0 0 13px #72f5e9)}
+.theme-neon .fried-white{fill:#e9fcff;stroke:#72f5e9}
+.theme-neon .fried-yolk{fill:#ffe95f;stroke:#ce8f28}
+.theme-winter .fried-white{fill:#ffffff;stroke:#2e687d}
+.theme-winter .fried-yolk{fill:#ffe58a;stroke:#c3943c}
+@keyframes fried-splat{from{opacity:0;transform:translate(-50%,-45%) scale(.62) rotate(-12deg)}70%{opacity:1;transform:translate(-50%,-50%) scale(1.08) rotate(3deg)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+@keyframes fried-settle{from{opacity:.75;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+@keyframes gold-fried-splat{from{opacity:0;transform:translate(-50%,-50%) scale(.72)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+@media(max-height:650px){.fried-egg{width:min(72vw,30svh,285px)}}
+@media(prefers-reduced-motion:reduce){.burst .burst-art .egg-wrap{visibility:hidden}.burst .burst-art>.fried-egg{opacity:1;animation:none!important;transform:translate(-50%,-50%)}.result .fried-egg{opacity:1;animation:none!important;transform:none}}
+.reduced .burst .burst-art .egg-wrap{visibility:hidden}
+.reduced .burst .burst-art>.fried-egg{opacity:1;animation:none!important;transform:translate(-50%,-50%)}
+.reduced .result .fried-egg{opacity:1;animation:none!important;transform:none}
+.fried-pair{display:block;position:relative;width:min(88vw,44svh,410px);aspect-ratio:1.5;pointer-events:none}
+.fried-pair>.fried-egg{position:absolute;top:0;width:69%;opacity:1;animation:none!important}
+.fried-pair>.fried-egg:first-child{left:0;transform:rotate(-11deg)}
+.fried-pair>.fried-egg:last-child{right:0;top:6%;transform:rotate(10deg)}
+.burst-art>.fried-pair{position:absolute;left:50%;top:50%;opacity:0;transform:translate(-50%,-50%)}
+.burst .burst-art>.fried-pair{animation:pair-splat .55s .94s cubic-bezier(.18,1.3,.35,1) both}
+.result .fried-pair{animation:fried-settle .3s ease-out both}
+@keyframes pair-splat{from{opacity:0;transform:translate(-50%,-44%) scale(.7)}70%{opacity:1;transform:translate(-50%,-50%) scale(1.07)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+@media(max-height:650px){.fried-pair{width:min(82vw,36svh,330px)}}
+@media(prefers-reduced-motion:reduce){.burst .burst-art>.fried-pair{opacity:1;animation:none!important;transform:translate(-50%,-50%)}.result .fried-pair{animation:none!important}}
+.reduced .burst .burst-art>.fried-pair{opacity:1;animation:none!important;transform:translate(-50%,-50%)}
+.reduced .result .fried-pair{animation:none!important}
+.world-card .world-preview .egg-face{transform:translate(-50%,-50%) scale(.4)}
+.world-page .world-back{display:inline-block;border:0;background:none;padding:0;text-align:left;font:inherit;cursor:pointer}

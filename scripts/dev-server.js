@@ -13,6 +13,7 @@ const files = new Map([
   ['/js/game.js','text/javascript; charset=utf-8'],
   ['/js/extras.js','text/javascript; charset=utf-8'],
   ['/js/audio.js','text/javascript; charset=utf-8'],
+  ['/js/themes.js','text/javascript; charset=utf-8'],
   ['/categories.json','application/json; charset=utf-8'],
   ['/assets/icon.svg','image/svg+xml'],
   ['/manifest.webmanifest','application/manifest+json'],

@@ -1,8 +1,9 @@
+import {themeSettings, drawTheme, themeById} from './themes.js';
 import {CHANCES, EGG_TYPES, RULES, eligibleRules, ruleCompatible} from './extras.js';
 
 export const STORAGE_KEY = 'wort-ei-v1';
 export const PACK_IDS = ['alltag','mario','minecraft','pokemon','gaming','filme','schule','fantasie','natur'];
-export const defaults = { count: 3, names: [], strikes: 3, difficulty: 'all', packs: [...PACK_IDS], min: 20, max: 50, sound: true, volume: 0.8, reduced: false, eggsEnabled: true, eggChance: 'normal', eggTypes: EGG_TYPES.map(type=>type.id), turboFactor: 0.6, rulesEnabled: true, ruleChance: 'normal' };
+export const defaults = { count: 3, names: [], strikes: 3, difficulty: 'all', packs: [...PACK_IDS], min: 20, max: 50, sound: true, volume: 0.8, reduced: false, eggsEnabled: true, eggChance: 'normal', eggTypes: EGG_TYPES.map(type=>type.id), turboFactor: 0.6, rulesEnabled: true, ruleChance: 'normal', theme: 'classic', themeMode: 'fixed', randomThemes: ['classic','retro','halloween','neon','winter'] };
 export function clampSettings(raw = {}) {
   const number = (x, fallback, lo, hi) => Math.min(hi, Math.max(lo, Number.isFinite(Number(x)) ? Math.round(Number(x)) : fallback));
   const count = number(raw.count, 3, 2, 10);
@@ -12,14 +13,15 @@ export function clampSettings(raw = {}) {
     eggsEnabled: raw.eggsEnabled === true, eggChance: CHANCES[raw.eggChance] === undefined ? 'normal' : raw.eggChance,
     eggTypes: Array.isArray(raw.eggTypes) ? [...new Set(raw.eggTypes.filter(id=>EGG_TYPES.some(type=>type.id===id)))] : EGG_TYPES.map(type=>type.id),
     turboFactor: Math.min(0.9,Math.max(0.4,Number(raw.turboFactor) || 0.6)),
-    rulesEnabled: raw.rulesEnabled === true, ruleChance: CHANCES[raw.ruleChance] === undefined ? 'normal' : raw.ruleChance };
+    rulesEnabled: raw.rulesEnabled === true, ruleChance: CHANCES[raw.ruleChance] === undefined ? 'normal' : raw.ruleChance, ...themeSettings(raw) };
 }
 export function matchingCategories(settings, categories) {
   return categories.filter(c => settings.packs.includes(c.pack || 'alltag') && (settings.difficulty === 'all' || c.level === settings.difficulty));
 }
 export function newGame(settings) {
   const s = clampSettings(settings);
-  return { version: 1, settings: s, players: s.names.map((name,i) => ({ id: i, name: name || `Spieler ${i+1}`, points: 0 })), phase: 'ready', round: 0, starter: 0, current: 0, category: null, used: [], deadline: null, burstAt: null, penaltyApplied: false, winner: null, eggType: 'normal', usedEggs: [], rule: null, usedRules: [], chaosAt: null, chaosChanged: false, chaosNoticeUntil: null, ruleDropped: false };
+  const theme=s.themeMode==='fixed'?s.theme:drawTheme(s);
+  return { version: 1, settings: s, theme, players: s.names.map((name,i) => ({ id: i, name: name || `Spieler ${i+1}`, points: 0 })), phase: 'ready', round: 0, starter: 0, current: 0, category: null, used: [], deadline: null, burstAt: null, penaltyApplied: false, winner: null, eggType: 'normal', usedEggs: [], rule: null, usedRules: [], chaosAt: null, chaosPasses: 0, chaosPassTarget: null, chaosChanges: 0, chaosChanged: false, chaosNoticeUntil: null, chaosFreezeUntil: null, ruleDropped: false };
 }
 export function pickRoundEgg(game, random = Math.random) {
   const selected = EGG_TYPES.filter(type=>game.settings.eggTypes.includes(type.id));
@@ -83,7 +85,8 @@ export function prepareRound(game, categories, random = Math.random) {
   game.rule = pickRoundRule(game, game.category, random);
   game.round++;
   game.deadline = null; game.burstAt = null; game.penaltyApplied = false;
-  game.chaosAt=null; game.chaosChanged=false; game.chaosNoticeUntil=null; game.ruleDropped=false;
+  game.chaosAt=null; game.chaosPasses=0; game.chaosPassTarget=null; game.chaosChanges=0; game.chaosChanged=false; game.chaosNoticeUntil=null; game.chaosFreezeUntil=null; game.ruleDropped=false;
+  if (game.settings.themeMode==='round' && game.round>1) game.theme=drawTheme(game.settings,game.theme,random);
   game.phase = 'preview';
   return true;
 }
@@ -93,14 +96,21 @@ export function startRound(game, now = Date.now(), random = Math.random) {
   const normalSeconds=game.settings.min + Math.floor(random() * range);
   const seconds=game.eggType==='turbo'?Math.max(3,Math.round(normalSeconds*game.settings.turboFactor)):normalSeconds;
   game.deadline = now + seconds * 1000;
-  if (game.eggType==='chaos') game.chaosAt=now+(5+Math.floor(random()*Math.max(10,Math.round(game.settings.max*1.5))))*1000;
+  if (game.eggType==='chaos') {
+    game.chaosAt=now+Math.max(250,Math.floor(seconds*1000*(0.2+random()*0.35)));
+    game.chaosPassTarget=2+Math.min(3,Math.floor(random()*4));
+  }
   game.phase = 'running'; return true;
 }
 export function triggerChaos(game, categories, now = Date.now(), random = Math.random) {
-  if (game.phase!=='running' || game.eggType!=='chaos' || game.chaosChanged || !Number.isFinite(game.chaosAt) || now<game.chaosAt || now>=game.deadline) return false;
-  game.chaosChanged=true; game.chaosAt=null;
+  if (game.phase!=='running' || game.eggType!=='chaos' || game.chaosChanges>=3 || now>=game.deadline || now<(game.chaosFreezeUntil || 0)) return false;
+  const ready=game.chaosChanges===0
+    ? Number.isFinite(game.chaosAt) && (now>=game.chaosAt || game.chaosPasses>=game.chaosPassTarget)
+    : game.chaosPasses>=game.chaosPassTarget;
+  if (!ready || now<((game.chaosNoticeUntil || 0)-3400)) return false;
   const alternatives=matchingCategories(game.settings,categories).filter(c=>c.id!==game.category.id);
-  if (!alternatives.length) return false;
+  if (!alternatives.length) {game.chaosAt=null;game.chaosPasses=0;return false;}
+  game.ruleDropped=false;
   let pool=alternatives;
   if (game.rule) {
     const compatible=pool.filter(c=>ruleCompatible(game.rule,c));
@@ -110,19 +120,28 @@ export function triggerChaos(game, categories, now = Date.now(), random = Math.r
   const unused=pool.filter(c=>!game.used.includes(c.id));
   if (unused.length) pool=unused;
   game.category=pickCategory(game,pool,random);
-  game.chaosNoticeUntil=now+2500;
+  game.chaosChanges=(game.chaosChanges || 0)+1;
+  game.chaosChanged=true;
+  game.chaosPasses=0;
+  game.chaosPassTarget=game.chaosChanges<3?2+Math.min(3,Math.floor(random()*4)):null;
+  game.chaosAt=null;
+  game.chaosFreezeUntil=now+3000;
+  game.deadline+=3000;
+  game.chaosNoticeUntil=now+5000;
   return true;
 }
 export function expire(game, now = Date.now()) {
   if (game.phase !== 'running' || !Number.isFinite(game.deadline) || now < game.deadline) return false;
-  game.phase = 'burst'; game.burstAt = now; game.chaosAt=null; game.chaosNoticeUntil=null;
+  game.phase = 'burst'; game.burstAt = now; game.chaosAt=null; game.chaosNoticeUntil=null; game.chaosFreezeUntil=null;
   if (!game.penaltyApplied) { game.players[game.current].points+=EGG_TYPES.find(type=>type.id===game.eggType)?.penalty ?? 1; game.penaltyApplied = true; }
   return true;
 }
 export function pass(game, now = Date.now()) {
   if (expire(game, now)) return 'expired';
   if (game.phase !== 'running') return 'ignored';
+  if (now<(game.chaosFreezeUntil || 0)) return 'frozen';
   game.current = nextActive(game, game.current);
+  if (game.eggType==='chaos' && game.chaosChanges<3 && (game.chaosChanges===0 || now>=((game.chaosNoticeUntil || 0)-3400))) game.chaosPasses=(game.chaosPasses || 0)+1;
   return 'passed';
 }
 export function finishBurst(game) {
@@ -132,16 +151,28 @@ export function finishBurst(game) {
   else game.phase = 'result';
   return true;
 }
+export function goldenReveal(game, now = Date.now()) {
+  return game?.phase==='burst' && game.eggType==='golden' && now-(game.burstAt ?? now)>=1150;
+}
+export function burstDuration(game) { return game?.eggType==='golden' ? 3400 : 1600; }
 export function normalizeRestored(game, now = Date.now()) {
   if (!game || game.version !== 1 || !Array.isArray(game.players)) return null;
   if (!Array.isArray(game.settings?.packs)) game.settings = {...game.settings, packs:['alltag']};
   game.settings = clampSettings(game.settings);
+  game.theme=themeById(game.theme || game.settings.theme).id;
   if (!EGG_TYPES.some(type=>type.id===game.eggType)) game.eggType='normal';
   if (!Array.isArray(game.usedEggs)) game.usedEggs=[];
   if (!Array.isArray(game.usedRules)) game.usedRules=[];
   if (!game.rule || !RULES.some(rule=>rule.id===game.rule.id) || !ruleCompatible(game.rule,game.category || {})) game.rule=null;
   if (game.chaosChanged !== true) game.chaosChanged=false;
+  if (!Number.isFinite(game.chaosPasses)) game.chaosPasses=0;
+  if (!Number.isInteger(game.chaosPassTarget) || game.chaosPassTarget<2 || game.chaosPassTarget>5) game.chaosPassTarget=3;
+  if (!Number.isFinite(game.chaosChanges)) game.chaosChanges=game.chaosChanged?1:0;
+  game.chaosChanges=Math.min(3,Math.max(0,Math.floor(game.chaosChanges)));
+  if (!Number.isFinite(game.chaosFreezeUntil) || game.chaosFreezeUntil<=now) game.chaosFreezeUntil=null;
+  if (game.chaosChanges>0) game.chaosAt=null;
+  if (game.phase==='running' && game.eggType==='chaos' && game.chaosChanges<3 && Number.isFinite(game.chaosAt) && game.chaosAt>=game.deadline && now<game.deadline) game.chaosAt=now;
   if (game.phase === 'running') expire(game, now);
-  if (game.phase === 'burst' && now - (game.burstAt || now) > 1600) finishBurst(game);
+  if (game.phase === 'burst' && now - (game.burstAt ?? now) >= burstDuration(game)) finishBurst(game);
   return game;
 }

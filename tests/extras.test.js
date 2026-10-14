@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {CHANCES, EGG_TYPES, RULES, eligibleRules, ruleCompatible} from '../js/extras.js';
-import {clampSettings, newGame, prepareRound, startRound, expire, finishBurst, pass, pickRoundEgg, pickRoundRule, triggerChaos, normalizeRestored} from '../js/game.js';
+import {clampSettings, newGame, prepareRound, startRound, expire, finishBurst, pass, pickRoundEgg, pickRoundRule, triggerChaos, normalizeRestored, goldenReveal, burstDuration} from '../js/game.js';
 
 const all=JSON.parse(readFileSync(new URL('../categories.json',import.meta.url))).categories;
 const sample=[
@@ -49,23 +49,144 @@ test('double penalty is applied once and can eliminate the active player',()=>{
 test('golden egg ends the round without a penalty',()=>{
   const game=fixed('golden');prepareRound(game,sample,()=>0);startRound(game,0,()=>0);
   assert.equal(expire(game,20000),true);assert.equal(game.players[0].points,0);
-  finishBurst(game);assert.equal(game.phase,'result');
+  assert.equal(goldenReveal(game,21149),false);
+  assert.equal(goldenReveal(game,21150),true);
+  assert.equal(burstDuration(game),3400);
+  assert.equal(expire(game,22000),false);assert.equal(game.players[0].points,0);
+  normalizeRestored(game,23399);assert.equal(game.phase,'burst');
+  normalizeRestored(game,23400);assert.equal(game.phase,'result');
+  assert.equal(game.players[0].points,0);
+  prepareRound(game,sample,()=>0);assert.equal(game.phase,'preview');
 });
 
-test('chaos changes category once without changing deadline or active player',()=>{
+test('chaos change pauses play for exactly three seconds',()=>{
   const game=fixed('chaos');prepareRound(game,sample,()=>0);startRound(game,0,()=>0);
   const deadline=game.deadline,current=game.current,first=game.category.id;
-  assert.equal(game.chaosAt,5000);
-  assert.equal(triggerChaos(game,sample,4999,()=>0),false);
-  assert.equal(triggerChaos(game,sample,5000,()=>0),true);
-  assert.notEqual(game.category.id,first);assert.equal(game.current,current);assert.equal(game.deadline,deadline);
+  assert.equal(game.chaosAt,4000);
+  assert.equal(triggerChaos(game,sample,3999,()=>0),false);
+  assert.equal(triggerChaos(game,sample,4000,()=>0),true);
+  assert.notEqual(game.category.id,first);assert.equal(game.current,current);assert.equal(game.deadline,deadline+3000);
+  assert.equal(game.chaosFreezeUntil,7000);
+  assert.equal(game.chaosNoticeUntil,9000);
   assert.equal(triggerChaos(game,sample,6000,()=>0),false);
+  assert.equal(pass(game,6000),'frozen');assert.equal(game.current,current);
+  assert.equal(pass(game,7000),'passed');
+  assert.equal(game.current,1);assert.equal(game.deadline,deadline+3000);
+  assert.equal(expire(game,20000),false);
+  assert.equal(expire(game,23000),true);
+  assert.equal(game.phase,'burst');assert.equal(game.chaosNoticeUntil,null);
+  assert.equal(game.players[1].points,1);
+  assert.equal(triggerChaos(game,sample,20001,()=>0),false);
+});
+
+test('rapid passing triggers chaos early and starts the reading pause',()=>{
+  const game=fixed('chaos');prepareRound(game,sample,()=>0);startRound(game,0,()=>0.99);
+  game.chaosPassTarget=3;
+  const deadline=game.deadline, original=game.category.id;
+  assert.ok(game.chaosAt<deadline);
+  for(let n=1;n<=2;n++){assert.equal(pass(game,n*100),'passed');assert.equal(triggerChaos(game,sample,n*100,()=>0),false);}
+  assert.equal(pass(game,300),'passed');
+  assert.equal(triggerChaos(game,sample,300,()=>0),true);
+  assert.notEqual(game.category.id,original);assert.equal(game.deadline,deadline+3000);
+  assert.equal(pass(game,3299),'frozen');
+  assert.equal(triggerChaos(game,sample,500,()=>0),false);
+  assert.equal(game.chaosPasses,0);
+  assert.equal(game.chaosChanges,1);
+});
+
+test('only the first chaos change happens automatically; later changes need passes',()=>{
+  const game=fixed('chaos');prepareRound(game,sample,()=>0);startRound(game,0,()=>0);
+  const deadline=game.deadline, history=[game.category.id];
+  assert.equal(triggerChaos(game,sample,4000,()=>0),true);
+  history.push(game.category.id);
+  assert.equal(game.chaosAt,null);
+  assert.equal(triggerChaos(game,sample,8000,()=>0),false);
+  assert.equal(triggerChaos(game,sample,10000,()=>0),false);
+  for(const [index,start] of [10000,14000].entries()) {
+    assert.equal(game.chaosPassTarget,2);
+    pass(game,start);assert.equal(triggerChaos(game,sample,start,()=>0),false);
+    const at=start+100;
+    pass(game,at);
+    assert.equal(triggerChaos(game,sample,at,()=>0),true);
+    history.push(game.category.id);
+    assert.notEqual(history.at(-1),history.at(-2));
+    assert.equal(game.chaosChanges,index+2);
+    assert.equal(game.chaosNoticeUntil,at+5000);
+    assert.equal(game.deadline,deadline+(index+2)*3000);
+    assert.equal(triggerChaos(game,sample,at+1,()=>0),false);
+  }
+  assert.equal(game.chaosAt,null);
+  for(let n=0;n<8;n++) pass(game,18000+n);
+  assert.equal(triggerChaos(game,sample,19000,()=>0),false);
+  assert.equal(game.chaosChanges,3);
+});
+
+test('rapid passes can cause three changes but respect the alarm interval',()=>{
+  const game=fixed('chaos',{min:100,max:100});prepareRound(game,sample,()=>0);startRound(game,0,()=>0.99);
+  game.chaosPassTarget=3;
+  const deadline=game.deadline;
+  const changes=[], affected=[];
+  for(const at of [100,200,300,400,500,3300,3400,3500,3600,3700,6500,6600,6700]) {
+    pass(game,at);
+    if(triggerChaos(game,sample,at,()=>0.25)) {changes.push(at);affected.push(game.current);}
+  }
+  assert.deepEqual(changes,[300,3500,6700]);
+  assert.deepEqual(affected,[1,0,1]);
+  assert.equal(game.chaosChanges,3);
+  assert.equal(game.deadline,deadline+9000);
+  assert.deepEqual(game.players.map(player=>player.points),[0,0]);
+  assert.equal(triggerChaos(game,sample,8000,()=>0),false);
+});
+
+test('chaos pass target varies between rounds and is redrawn after a change',()=>{
+  const early=fixed('chaos');prepareRound(early,sample,()=>0);startRound(early,0,()=>0);
+  const late=fixed('chaos');prepareRound(late,sample,()=>0);startRound(late,0,()=>0.99);
+  assert.equal(early.chaosPassTarget,2);
+  assert.equal(late.chaosPassTarget,5);
+  assert.equal(triggerChaos(early,sample,early.chaosAt,()=>0.75),true);
+  assert.equal(early.chaosPassTarget,5);
+  const restored=normalizeRestored(JSON.parse(JSON.stringify(late)),1000);
+  assert.equal(restored.chaosPassTarget,5);
+  assert.equal(triggerChaos(restored,sample,1000,()=>0),false);
+});
+
+test('saved older chaos rounds with an unreachable trigger are repaired',()=>{
+  const game=fixed('chaos');prepareRound(game,sample,()=>0);startRound(game,0,()=>0);
+  game.chaosAt=game.deadline+1000;
+  normalizeRestored(game,1000);
+  assert.equal(game.chaosAt,1000);
+  assert.equal(triggerChaos(game,sample,1000,()=>0),true);
+  assert.equal(game.players[game.current].points,0);
+});
+
+test('restored chaos rounds discard a previously scheduled automatic follow-up',()=>{
+  const game=fixed('chaos');prepareRound(game,sample,()=>0);startRound(game,0,()=>0);
+  triggerChaos(game,sample,4000,()=>0);
+  game.chaosAt=8000;
+  normalizeRestored(game,5000);
+  assert.equal(game.chaosAt,null);
+  assert.equal(triggerChaos(game,sample,8000,()=>0),false);
+  assert.equal(game.chaosChanges,1);
+});
+
+test('reload keeps the remaining reading pause without extending it again',()=>{
+  const game=fixed('chaos');prepareRound(game,sample,()=>0);startRound(game,0,()=>0);
+  triggerChaos(game,sample,4000,()=>0);
+  const saved=JSON.parse(JSON.stringify(game));
+  normalizeRestored(saved,5500);
+  assert.equal(saved.chaosFreezeUntil,7000);
+  assert.equal(saved.deadline,23000);
+  assert.equal(pass(saved,6999),'frozen');
+  normalizeRestored(saved,7000);
+  assert.equal(saved.chaosFreezeUntil,null);
+  assert.equal(pass(saved,7000),'passed');
+  assert.equal(saved.deadline,23000);
 });
 
 test('round may burst before chaos; expired rounds cannot switch categories',()=>{
   const game=fixed('chaos',{min:3,max:3});prepareRound(game,sample,()=>0);startRound(game,0,()=>0.9);
   const first=game.category.id;
-  assert.ok(game.chaosAt>game.deadline);
+  assert.ok(game.chaosAt<game.deadline);
   expire(game,3000);
   assert.equal(triggerChaos(game,sample,14000,()=>0),false);
   assert.equal(game.category.id,first);
