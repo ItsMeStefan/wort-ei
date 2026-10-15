@@ -2,19 +2,9 @@
 
 Ein lokales Wortspiel für 2 bis 10 Personen auf einem gemeinsamen Gerät. Die Antworten werden laut gesagt. Das Ei zeigt die aktive Person; ein Tipp gibt es weiter. Eine geheime, bei Rundenstart zufällig bestimmte Zeit läuft unabhängig von den Tipps ab.
 
-## Lokale Entwicklung ohne Docker
+## Lokal starten
 
 Im Projektverzeichnis `npm run dev` starten und `http://localhost:16006` öffnen. Der kleine Entwicklungsserver benötigt keine Installation zusätzlicher Pakete und liest die Dateien bei jedem Aufruf neu ein. Nach Änderungen genügt ein Neuladen der Seite. Standardmäßig ist er nur auf diesem Rechner erreichbar. Für die Vorschau im Heimnetz kann er gezielt an die eigene LAN-Adresse gebunden werden, zum Beispiel mit `HOST=<LAN-IP> npm run dev` und `http://<LAN-IP>:16006` auf einem anderen Gerät. Das andere Gerät muss im selben Heimnetz oder per VPN verbunden sein; über Mobilfunk ist eine private LAN-Adresse nicht erreichbar. Falls UFW aktiv ist, muss Port 16006 für das Heimnetz freigegeben werden. `Strg+C` beendet den Server.
-
-## Start mit Docker (optional)
-
-Im Projektverzeichnis:
-
-```sh
-docker compose up -d --build
-```
-
-Danach `http://HEIMSERVER-IP:16005` im Browser öffnen. Die IP ist die lokale Adresse des Servers. Zum Stoppen `docker compose down`, für Logs `docker compose logs -f`, für Updates neue Dateien einspielen und `docker compose up -d --build` erneut ausführen. Der Container startet nach einem Serverneustart automatisch, sofern er nicht manuell gestoppt wurde. Falls Port 16005 belegt ist, die linke Portnummer in `docker-compose.yml` ändern.
 
 ## Spielen
 
@@ -34,15 +24,11 @@ Es sind 28 mündliche Zusatzregeln enthalten. Die Spieler entscheiden selbst üb
 
 ## Kategorien anpassen
 
-`categories.json` enthält 365 Aufgaben: die bisherigen 225 in „Alltag & Allgemeinwissen“ sowie 140 neue in „Super Mario“, „Minecraft“, „Pokémon“, „Gaming & Videospiele“, „Filme & Serien“, „Kinder & Schule“, „Quatsch & Fantasie“ und „Tiere & Natur“. Die Stufen heißen `easy`, `normal` und `hard`. Jede Kategorie hat eine eindeutige `id`, ein `level`, den angezeigten `text` und eine `pack`-ID. Die Paketnamen, Beschreibungen und Symbole stehen im Feld `packs`. Einträge ohne `pack` werden aus Kompatibilitätsgründen „Alltag & Allgemeinwissen“ zugeordnet. Weitere Einträge im gleichen Format ergänzen, dann den Container neu bauen. Kategorien wiederholen sich erst, wenn alle passenden Kategorien benutzt wurden; beim Neustart dieses Durchlaufs wird die letzte Kategorie nicht unmittelbar wiederholt. Bei Änderungen an bestehenden IDs kann der lokale Verlauf im Browser weiter bestehen; ein neues Spiel beginnt mit leerem Verlauf. Die letzte Paketauswahl wird lokal gespeichert.
+`categories.json` enthält 365 Aufgaben: die bisherigen 225 in „Alltag & Allgemeinwissen“ sowie 140 neue in „Super Mario“, „Minecraft“, „Pokémon“, „Gaming & Videospiele“, „Filme & Serien“, „Kinder & Schule“, „Quatsch & Fantasie“ und „Tiere & Natur“. Die Stufen heißen `easy`, `normal` und `hard`. Jede Kategorie hat eine eindeutige `id`, ein `level`, den angezeigten `text` und eine `pack`-ID. Die Paketnamen, Beschreibungen und Symbole stehen im Feld `packs`. Einträge ohne `pack` werden aus Kompatibilitätsgründen „Alltag & Allgemeinwissen“ zugeordnet. Weitere Einträge im gleichen Format ergänzen und die Seite neu laden. Kategorien wiederholen sich erst, wenn alle passenden Kategorien benutzt wurden; beim Neustart dieses Durchlaufs wird die letzte Kategorie nicht unmittelbar wiederholt. Bei Änderungen an bestehenden IDs kann der lokale Verlauf im Browser weiter bestehen; ein neues Spiel beginnt mit leerem Verlauf. Die letzte Paketauswahl wird lokal gespeichert.
 
 ## Entwicklung und Tests
 
 Die App benötigt für die Laufzeit nur einen statischen Webserver; für die Entwicklung genügt der mitgelieferte Node-Server. Die Spiellogik liegt in `js/game.js`, Ei- und Regeldefinitionen in `js/extras.js`, Darstellung und Browserintegration in `js/app.js`, Klang in `js/audio.js`, Stil in `css/style.css`. `npm test` prüft die wichtigsten Zustandsübergänge. Der Ton wird lokal mit Web Audio erzeugt; es gibt keine externen Dienste, Schriftarten oder Trackingdienste.
-
-## Entwicklung ohne Docker-Neubau
-
-Für lokale Änderungen kann `npm run dev` genutzt werden (Port 16006). Wenn die App während der Entwicklung auf Port 16005 im Docker-Container laufen soll, einmalig `docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d --no-build` ausführen. Das bindet HTML, CSS, JavaScript, Daten und Assets direkt aus diesem Verzeichnis ein. Danach genügt im Browser ein Reload; ein `docker compose up --build` ist nur für die normale, fest eingebaute Container-Version nötig.
 
 ## Spielwelten
 

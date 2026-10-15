@@ -1,7 +1,0 @@
-services:
-  wort-ei:
-    build: .
-    container_name: wort-ei
-    ports:
-      - "16005:80"
-    restart: unless-stopped
