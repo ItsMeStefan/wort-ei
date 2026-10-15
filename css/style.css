@@ -177,3 +177,30 @@ html,body,button{touch-action:manipulation}
 .reduced .result .fried-pair{animation:none!important}
 .world-card .world-preview .egg-face{transform:translate(-50%,-50%) scale(.4)}
 .world-page .world-back{display:inline-block;border:0;background:none;padding:0;text-align:left;font:inherit;cursor:pointer}
+
+/* Keep the round's question, player and egg in one mobile viewport. */
+.app-shell.in-game{height:100dvh;min-height:100svh}
+.in-game header{padding:calc(env(safe-area-inset-top) + 5px) max(16px,env(safe-area-inset-right)) 2px max(16px,env(safe-area-inset-left))}
+.in-game .brand{font-size:clamp(19px,2.4vw,24px)}
+.in-game .brand-icon{width:25px;height:29px;border-width:2px}
+.in-game .icon-button{width:44px;height:44px;font-size:24px}
+.in-game .play{width:min(100%,980px);margin:0 auto;padding:0 max(14px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));overflow-y:auto;overscroll-behavior:contain}
+.in-game .round-meta{align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;width:auto;max-width:100%;border:0;padding:0;line-height:1.15;font-size:11px;letter-spacing:.03em;text-transform:uppercase}
+.in-game .round-meta .pack-tag{margin:0;padding:3px 8px;font-size:10px;letter-spacing:.06em}
+.in-game:not(.theme-classic) .round-meta .pack-tag{background:var(--world-surface);color:var(--world-ink);border:1px solid var(--world-line)}
+.in-game .prompt{width:100%;margin:clamp(5px,1.2dvh,12px) auto 0}
+.in-game .prompt h1{font-size:clamp(27px,4.2vw,52px);line-height:1.08;text-wrap:balance}
+.in-game .prompt .egg-type-tag{margin:0 0 6px}
+.in-game .egg-stage{flex:1 1 auto;min-height:0;padding:4px 0 2px;gap:clamp(3px,1dvh,10px)}
+.in-game .egg-status{min-height:0}
+.in-game .egg-status h2{font-size:clamp(21px,3vw,31px)}
+.in-game .egg-stage .egg-button,.in-game .egg-stage .display-egg,.in-game .egg-stage .burst-art{margin-block:0}
+.in-game .egg-stage .egg-wrap{width:min(64vw,32dvh,300px);height:auto;aspect-ratio:.86}
+.in-game .egg-stage .egg-button{padding:4px 24px;min-width:min(72vw,320px);min-height:0}
+.in-game .egg-button-label{min-height:0}
+.in-game .egg-stage .hint{min-height:0;margin:2px 0 0}
+.in-game .game-bottom{margin:0 auto;width:min(100%,740px)}
+.in-game .game-bottom .scores{margin:5px auto 0;max-height:min(20dvh,112px)}
+.in-game .game-bottom .primary{margin-bottom:5px}
+@media(max-width:760px){.in-game .prompt h1{font-size:clamp(25px,6.6vw,38px)}.in-game .egg-status h2{font-size:clamp(20px,5vw,26px)}.in-game .egg-stage .egg-wrap{width:min(64vw,31dvh,270px)}.in-game .game-bottom .scores{max-height:min(18dvh,90px)}}
+@media(max-height:650px){.in-game .prompt h1{font-size:clamp(22px,5.2vh,32px)}.in-game .egg-stage .egg-wrap{width:min(58vw,28dvh,220px)}.in-game .egg-stage{gap:2px}.in-game .game-bottom .scores{max-height:60px}}
