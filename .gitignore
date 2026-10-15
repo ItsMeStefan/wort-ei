@@ -1,3 +1,7 @@
 node_modules/
 .playwright-cli/
 .wrangler/
+.env
+.env.*
+!.env.example
+.DS_Store

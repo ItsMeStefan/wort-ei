@@ -4,7 +4,7 @@ Ein lokales Wortspiel für 2 bis 10 Personen auf einem gemeinsamen Gerät. Die A
 
 ## Lokale Entwicklung ohne Docker
 
-Im Projektverzeichnis `npm run dev` starten und `http://localhost:16006` öffnen. Der kleine Entwicklungsserver benötigt keine Installation zusätzlicher Pakete und liest die Dateien bei jedem Aufruf neu ein. Nach Änderungen genügt ein Neuladen der Seite. Standardmäßig ist er nur auf diesem Rechner erreichbar. Für die Vorschau im Heimnetz kann er gezielt an die eigene LAN-Adresse gebunden werden, zum Beispiel mit `HOST=<LAN-IP> npm run dev` und `http://<LAN-IP>:16006` auf einem anderen Gerät. Das andere Gerät muss im selben Heimnetz oder per VPN verbunden sein; über Mobilfunk ist eine private `192.168…`-Adresse nicht erreichbar. Falls UFW aktiv ist, muss Port 16006 für das Heimnetz freigegeben werden. `Strg+C` beendet den Server.
+Im Projektverzeichnis `npm run dev` starten und `http://localhost:16006` öffnen. Der kleine Entwicklungsserver benötigt keine Installation zusätzlicher Pakete und liest die Dateien bei jedem Aufruf neu ein. Nach Änderungen genügt ein Neuladen der Seite. Standardmäßig ist er nur auf diesem Rechner erreichbar. Für die Vorschau im Heimnetz kann er gezielt an die eigene LAN-Adresse gebunden werden, zum Beispiel mit `HOST=<LAN-IP> npm run dev` und `http://<LAN-IP>:16006` auf einem anderen Gerät. Das andere Gerät muss im selben Heimnetz oder per VPN verbunden sein; über Mobilfunk ist eine private LAN-Adresse nicht erreichbar. Falls UFW aktiv ist, muss Port 16006 für das Heimnetz freigegeben werden. `Strg+C` beendet den Server.
 
 ## Start mit Docker (optional)
 
