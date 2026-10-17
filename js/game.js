@@ -1,25 +1,28 @@
 import {themeSettings, drawTheme, themeById} from './themes.js';
 import {CHANCES, EGG_TYPES, RULES, eligibleRules, ruleCompatible} from './extras.js';
+import {editionById,CLASSIC_PACKS,CLASSIC_THEMES} from './edition.js';
 
 export const STORAGE_KEY = 'wort-ei-v1';
-export const PACK_IDS = ['alltag','mario','minecraft','pokemon','gaming','filme','schule','fantasie','natur'];
-export const defaults = { count: 3, names: [], strikes: 3, difficulty: 'all', packs: [...PACK_IDS], min: 20, max: 50, sound: true, volume: 0.8, reduced: false, eggsEnabled: true, eggChance: 'normal', eggTypes: EGG_TYPES.map(type=>type.id), turboFactor: 0.6, rulesEnabled: true, ruleChance: 'normal', theme: 'classic', themeMode: 'fixed', randomThemes: ['classic','retro','halloween','neon','winter'] };
-export function clampSettings(raw = {}) {
+export const PACK_IDS = CLASSIC_PACKS;
+export const defaults = { count: 3, names: [], strikes: 3, difficulty: 'all', packs: [...PACK_IDS], min: 20, max: 50, sound: true, volume: 0.8, reduced: false, eggsEnabled: true, eggChance: 'normal', eggTypes: EGG_TYPES.map(type=>type.id), turboFactor: 0.6, rulesEnabled: true, ruleChance: 'normal', theme: 'classic', themeMode: 'fixed', randomThemes: CLASSIC_THEMES };
+export function defaultsFor(edition='classic') { const config=editionById(edition); return {...defaults,edition:config.id,packs:[...config.packs],theme:config.defaultTheme,randomThemes:[...config.themes],intensity:2}; }
+export function clampSettings(raw = {}, edition=raw.edition || 'classic') {
+  const config=editionById(edition);
   const number = (x, fallback, lo, hi) => Math.min(hi, Math.max(lo, Number.isFinite(Number(x)) ? Math.round(Number(x)) : fallback));
   const count = number(raw.count, 3, 2, 10);
   const min = number(raw.min, 20, 3, 180);
   const max = number(raw.max, 50, min, 300);
-  return { count, names: Array.from({length: count}, (_, i) => String(raw.names?.[i] || '').trim().slice(0, 24)), strikes: number(raw.strikes, 3, 1, 10), difficulty: ['all','easy','normal','hard'].includes(raw.difficulty) ? raw.difficulty : 'all', packs: Array.isArray(raw.packs) ? [...new Set(raw.packs.filter(id=>PACK_IDS.includes(id)))] : [...PACK_IDS], min, max: Math.max(min,max), sound: raw.sound !== false, volume: Math.min(1, Math.max(0, Number(raw.volume ?? 0.8))), reduced: raw.reduced === true,
+  return { edition:config.id, intensity:config.id==='adult'?number(raw.intensity,2,1,3):undefined, count, names: Array.from({length: count}, (_, i) => String(raw.names?.[i] || '').trim().slice(0, 24)), strikes: number(raw.strikes, 3, 1, 10), difficulty: ['all','easy','normal','hard'].includes(raw.difficulty) ? raw.difficulty : 'all', packs: Array.isArray(raw.packs) ? [...new Set(raw.packs.filter(id=>config.packs.includes(id)))] : [...config.packs], min, max: Math.max(min,max), sound: raw.sound !== false, volume: Math.min(1, Math.max(0, Number(raw.volume ?? 0.8))), reduced: raw.reduced === true,
     eggsEnabled: raw.eggsEnabled === true, eggChance: CHANCES[raw.eggChance] === undefined ? 'normal' : raw.eggChance,
     eggTypes: Array.isArray(raw.eggTypes) ? [...new Set(raw.eggTypes.filter(id=>EGG_TYPES.some(type=>type.id===id)))] : EGG_TYPES.map(type=>type.id),
     turboFactor: Math.min(0.9,Math.max(0.4,Number(raw.turboFactor) || 0.6)),
-    rulesEnabled: raw.rulesEnabled === true, ruleChance: CHANCES[raw.ruleChance] === undefined ? 'normal' : raw.ruleChance, ...themeSettings(raw) };
+    rulesEnabled: raw.rulesEnabled === true, ruleChance: CHANCES[raw.ruleChance] === undefined ? 'normal' : raw.ruleChance, ...themeSettings(raw,config.id) };
 }
 export function matchingCategories(settings, categories) {
-  return categories.filter(c => settings.packs.includes(c.pack || 'alltag') && (settings.difficulty === 'all' || c.level === settings.difficulty));
+  return categories.filter(c => settings.packs.includes(c.pack || 'alltag') && (settings.difficulty === 'all' || c.level === settings.difficulty) && (settings.edition!=='adult' || Number.isInteger(c.intensity) && c.intensity<=settings.intensity));
 }
-export function newGame(settings) {
-  const s = clampSettings(settings);
+export function newGame(settings, edition=settings?.edition || 'classic') {
+  const s = clampSettings(settings,edition);
   const theme=s.themeMode==='fixed'?s.theme:drawTheme(s);
   return { version: 1, settings: s, theme, players: s.names.map((name,i) => ({ id: i, name: name || `Spieler ${i+1}`, points: 0 })), phase: 'ready', round: 0, starter: 0, current: 0, category: null, used: [], deadline: null, burstAt: null, penaltyApplied: false, winner: null, eggType: 'normal', usedEggs: [], rule: null, usedRules: [], chaosAt: null, chaosPasses: 0, chaosPassTarget: null, chaosChanges: 0, chaosChanged: false, chaosNoticeUntil: null, chaosFreezeUntil: null, ruleDropped: false };
 }
@@ -59,7 +62,7 @@ export function nextActive(game, from) {
 }
 export function pickCategory(game, categories, random = Math.random) {
   const pool = matchingCategories(game.settings, categories);
-  if (!pool.length) throw new Error(game.settings.packs.length ? 'Für diese Themenpakete und Schwierigkeit gibt es keine Aufgaben.' : 'Wähle mindestens ein Themenpaket aus.');
+  if (!pool.length) throw new Error(game.settings.packs.length ? game.settings.edition==='adult'?'Für diese Themenpakete, Schwierigkeit und Geschmacksstufe gibt es keine Aufgaben.':'Für diese Themenpakete und Schwierigkeit gibt es keine Aufgaben.' : 'Wähle mindestens ein Themenpaket aus.');
   let unused = pool.filter(c => !game.used.includes(c.id));
   if (!unused.length) { game.used = []; unused = pool; }
   const previousId = game.category?.id;
@@ -155,11 +158,12 @@ export function goldenReveal(game, now = Date.now()) {
   return game?.phase==='burst' && game.eggType==='golden' && now-(game.burstAt ?? now)>=1150;
 }
 export function burstDuration(game) { return game?.eggType==='golden' ? 3400 : 1600; }
-export function normalizeRestored(game, now = Date.now()) {
+export function normalizeRestored(game, now = Date.now(), edition='classic') {
   if (!game || game.version !== 1 || !Array.isArray(game.players)) return null;
-  if (!Array.isArray(game.settings?.packs)) game.settings = {...game.settings, packs:['alltag']};
-  game.settings = clampSettings(game.settings);
-  game.theme=themeById(game.theme || game.settings.theme).id;
+  if ((game.settings?.edition || 'classic')!==edition) return null;
+  if (!Array.isArray(game.settings?.packs)) game.settings = {...game.settings, packs:edition==='classic'?['alltag']:editionById(edition).packs};
+  game.settings = clampSettings(game.settings,edition);
+  game.theme=editionById(edition).themes.includes(game.theme)?game.theme:game.settings.theme;
   if (!EGG_TYPES.some(type=>type.id===game.eggType)) game.eggType='normal';
   if (!Array.isArray(game.usedEggs)) game.usedEggs=[];
   if (!Array.isArray(game.usedRules)) game.usedRules=[];

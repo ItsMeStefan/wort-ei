@@ -1,0 +1,2718 @@
+{
+  "packs": [
+    {
+      "id": "sex",
+      "name": "Sex & Schweinereien",
+      "description": "Erotik, Pannen und schmutzige Gedanken.",
+      "symbol": "♥"
+    },
+    {
+      "id": "dating",
+      "name": "Dating-Desaster",
+      "description": "Dates, Apps und Beziehungschaos.",
+      "symbol": "♡"
+    },
+    {
+      "id": "dark",
+      "name": "Schwarzer Humor",
+      "description": "Makaber, taktlos und bitterböse.",
+      "symbol": "✟"
+    },
+    {
+      "id": "horror",
+      "name": "Horror & Splatter",
+      "description": "Monster, Spuk und Filmklischees.",
+      "symbol": "☠"
+    },
+    {
+      "id": "crime",
+      "name": "Verbrechen & Knast",
+      "description": "Dumme Ganoven und schlechte Pläne.",
+      "symbol": "⌁"
+    },
+    {
+      "id": "gross",
+      "name": "Ekel & Abgründe",
+      "description": "Funde, Gerüche und kalter Schweiß.",
+      "symbol": "◉"
+    },
+    {
+      "id": "party",
+      "name": "Alkohol & Eskalation",
+      "description": "Partys und Entscheidungen von gestern.",
+      "symbol": "✦"
+    },
+    {
+      "id": "taboo",
+      "name": "Peinlich & Tabu",
+      "description": "Geheimnisse und fatale Nachrichten.",
+      "symbol": "!"
+    },
+    {
+      "id": "work",
+      "name": "Böse Berufswelt",
+      "description": "Jobs mit sehr schlechtem Benehmen.",
+      "symbol": "▣"
+    },
+    {
+      "id": "daily",
+      "name": "Perverser Alltag",
+      "description": "Zweideutigkeit zwischen Küche und Bett.",
+      "symbol": "◇"
+    },
+    {
+      "id": "hell",
+      "name": "Hölle & Jenseits",
+      "description": "Dämonen, Strafen und Behörden.",
+      "symbol": "♨"
+    },
+    {
+      "id": "moral",
+      "name": "Moralisch fragwürdig",
+      "description": "Miese Ausreden und zweifelhafte Geschenke.",
+      "symbol": "⚖"
+    }
+  ],
+  "categories": [
+    {
+      "id": "adult-sex-001",
+      "pack": "sex",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne einen Ort, an dem ein Quickie besonders unpraktisch wäre!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-002",
+      "pack": "sex",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne etwas, das beim Sex die Stimmung sofort zerstört!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-003",
+      "pack": "sex",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welcher Satz gehört auf keinen Fall ins Bett?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-004",
+      "pack": "sex",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne ein Geräusch, das beim Vorspiel irritiert!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-005",
+      "pack": "sex",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was wäre ein peinlicher Name für ein Sexspielzeug?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-006",
+      "pack": "sex",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne einen Gegenstand, der im Schlafzimmer falsch verstanden wird!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-007",
+      "pack": "sex",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Nenne einen Satz, der im Bett wie eine Obduktion klingt!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-008",
+      "pack": "sex",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was wäre die widerlichste Entdeckung unter einem fremden Bettlaken?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-009",
+      "pack": "sex",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Welches Sexspielzeug braucht garantiert einen Warnhinweis vom TÜV?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-010",
+      "pack": "sex",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne eine App, die beim Sex besser stumm bleibt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-011",
+      "pack": "sex",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welches Kleidungsstück wäre als Dessous ein Totalausfall?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-012",
+      "pack": "sex",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne einen unsexy Ort für ein romantisches Date!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-013",
+      "pack": "sex",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Was könnte eine erotische Playlist ruinieren?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-014",
+      "pack": "sex",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne einen Satz, der beim Ausziehen furchtbar klingt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-015",
+      "pack": "sex",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welches Haustier wäre der schlimmste Zuschauer im Schlafzimmer?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-016",
+      "pack": "sex",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Nenne eine sexuelle Panne, über die der ganze Hausflur spricht!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-017",
+      "pack": "sex",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was sollte beim Dirty Talk niemals mit einem Familiennamen beginnen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-018",
+      "pack": "sex",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Welche Überraschung im Schlafzimmer lässt sogar Satan rot werden?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-019",
+      "pack": "sex",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welches Kompliment über einen nackten Körper wäre beleidigend?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-020",
+      "pack": "sex",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne einen Beruf, der als Flirt-Fantasie seltsam klingt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-021",
+      "pack": "sex",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was sollte auf einer Kondompackung niemals stehen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-022",
+      "pack": "sex",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne einen Grund, beim Küssen plötzlich zu lachen!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-sex-023",
+      "pack": "sex",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welcher Kosename klingt eher nach einer Geschlechtskrankheit?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-024",
+      "pack": "sex",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne eine Sache, die man nach wildem Sex erklären muss!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-sex-025",
+      "pack": "sex",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Nenne einen Grund, warum ein Erotikhotel dein Foto an die Rezeption hängt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-001",
+      "pack": "dating",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne einen Grund, ein erstes Date sofort abzubrechen!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-002",
+      "pack": "dating",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welche Tinder-Bio schreckt garantiert alle ab?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-003",
+      "pack": "dating",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was sollte man bei einem One-Night-Stand nicht vergessen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-004",
+      "pack": "dating",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne einen Satz, der ein Date in Sekunden ruiniert!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-005",
+      "pack": "dating",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welches Geschenk beim ersten Treffen wäre viel zu intim?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-006",
+      "pack": "dating",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne einen Ort für ein wirklich schlechtes Date!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-007",
+      "pack": "dating",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was wäre ein katastrophaler Fund im Bad eines One-Night-Stands?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-008",
+      "pack": "dating",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Nenne einen Satz beim Date, nach dem beide ihre Anwälte anrufen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-009",
+      "pack": "dating",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Welche Beichte direkt nach dem Sex beendet jede Romanze?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-010",
+      "pack": "dating",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Was sollte man beim Kennenlernen nicht über den Ex erzählen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-011",
+      "pack": "dating",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne eine Frage, die beim ersten Date zu früh kommt!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-012",
+      "pack": "dating",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welcher Beruf wäre in einer erfundenen Dating-Bio besonders unglaubwürdig?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-013",
+      "pack": "dating",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Was könnte eine romantische Sprachnachricht ruinieren?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-014",
+      "pack": "dating",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne einen Grund, beim Date die Rechnung allein zu bezahlen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-015",
+      "pack": "dating",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welche Nachricht an den Ex bereut man am nächsten Morgen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-016",
+      "pack": "dating",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was könnte ein Ex beim Hochzeitsessen als Tischrede verraten?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-017",
+      "pack": "dating",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Welcher Fund auf einem Dating-Profil beweist völlige Schamlosigkeit?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-018",
+      "pack": "dating",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne einen Grund, nach einem Date heimlich die Bettwäsche zu verbrennen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-019",
+      "pack": "dating",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welche Wahrheit steht nie in einer Dating-Bio?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-020",
+      "pack": "dating",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne ein verdächtiges Mitbringsel zum Blind Date!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-021",
+      "pack": "dating",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was wäre ein Alarmzeichen bei einem romantischen Abendessen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-022",
+      "pack": "dating",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne eine absurde Begründung für eine Trennung!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dating-023",
+      "pack": "dating",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welcher Satz macht aus einem Flirt sofort ein Bewerbungsgespräch?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-024",
+      "pack": "dating",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne ein Detail, das man beim Date lieber nicht laut bemerkt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dating-025",
+      "pack": "dating",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welche Nachricht an mehrere Ex-Partner wäre maximal selbstzerstörerisch?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-001",
+      "pack": "dark",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Was sollte man auf einer Beerdigung niemals laut sagen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-002",
+      "pack": "dark",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne einen unangemessenen Grabsteinspruch!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-003",
+      "pack": "dark",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welcher Werbeslogan wäre für ein Bestattungsunternehmen fatal?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-004",
+      "pack": "dark",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne ein Lied, das bei einer Trauerfeier völlig daneben wäre!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-005",
+      "pack": "dark",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was wäre ein geschmackloses Souvenir vom Friedhof?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-006",
+      "pack": "dark",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne einen Satz, den ein Erbe viel zu früh sagt!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-007",
+      "pack": "dark",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welcher Grabsteinspruch klingt wie eine schlechte Online-Bewertung?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-008",
+      "pack": "dark",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was wäre eine makabre Aktion zum Tag der offenen Tür im Krematorium?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-009",
+      "pack": "dark",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne einen Satz, mit dem ein Bestatter jede Trauerfeier sprengt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-010",
+      "pack": "dark",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne etwas, das man nicht in einen Kondolenzbrief schreibt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-011",
+      "pack": "dark",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welches Geschenk passt überhaupt nicht zu einer Trauerfeier?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-012",
+      "pack": "dark",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne eine unpassende Durchsage im Leichenwagen!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-013",
+      "pack": "dark",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Was wäre ein furchtbarer Rabatt für Särge?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-014",
+      "pack": "dark",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne einen Satz, der beim Testamentlesen die Stimmung sprengt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-015",
+      "pack": "dark",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welche Speise sollte auf einer Beerdigung keinen lustigen Namen haben?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-016",
+      "pack": "dark",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welche Überraschung in einem Testament ruiniert den Leichenschmaus?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-017",
+      "pack": "dark",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was wäre der geschmackloseste Name für ein Friedhofsrestaurant?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-018",
+      "pack": "dark",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne eine Beigabe zum Sarg, über die die Familie nicht reden will!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-019",
+      "pack": "dark",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welcher Jobtitel klingt im Jenseits besonders verdächtig?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-020",
+      "pack": "dark",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne einen schlechten Slogan für eine Lebensversicherung!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-021",
+      "pack": "dark",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was sollte der DJ einer Trauerfeier nicht ankündigen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-022",
+      "pack": "dark",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne einen Satz, der auf einer Todesanzeige nach Werbung klingt!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-dark-023",
+      "pack": "dark",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welches Hobby wäre für einen Sensenmann peinlich?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-024",
+      "pack": "dark",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne etwas, das man beim Leichenschmaus besser nicht probiert!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-dark-025",
+      "pack": "dark",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welche Werbeaktion für Särge käme selbst Satan zu früh?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-001",
+      "pack": "horror",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welcher Alltagsgegenstand taugt im Horrorfilm als Waffe?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-002",
+      "pack": "horror",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was könnte ein fiktiver Serienkiller sammeln?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-003",
+      "pack": "horror",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne einen dummen Grund, im Horrorfilm zu sterben!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-004",
+      "pack": "horror",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Was sollte man in einem verlassenen Haus nicht anfassen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-005",
+      "pack": "horror",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welches Geräusch kündigt ein lächerliches Monster an?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-006",
+      "pack": "horror",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne einen Ort, an dem ein Zombie peinlich auffällt!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-007",
+      "pack": "horror",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was würde ein Monster aus einem fiktiven Splatterfilm als Trophäe sammeln?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-008",
+      "pack": "horror",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Nenne einen absurden Weg, wie ein Horrorfilm-Bösewicht sein Opfer verliert!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-009",
+      "pack": "horror",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Welcher Gegenstand im Folterkeller wäre erschreckend alltäglich?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-010",
+      "pack": "horror",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Was könnte unter dem Bett wohnen, das schlimmer als ein Monster ist?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-011",
+      "pack": "horror",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welches Küchengerät macht einen Horrorfilm absurd?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-012",
+      "pack": "horror",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne einen Grund, warum ein Geist den Spuk abbricht!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-013",
+      "pack": "horror",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Was sollte man einem Werwolf bei Vollmond nicht anbieten?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-014",
+      "pack": "horror",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne einen Satz, den die letzte Überlebende besser nicht sagt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-015",
+      "pack": "horror",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welcher Gegenstand würde eine Geisterbeschwörung ruinieren?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-016",
+      "pack": "horror",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was könnte ein Zombie im Kühlschrank für später aufheben?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-017",
+      "pack": "horror",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Nenne eine groteske Warnung auf der Tür eines Horrorlabors!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-018",
+      "pack": "horror",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Welches Souvenir aus dem Spukhaus würde im Flugzeug beschlagnahmt?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-019",
+      "pack": "horror",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne eine Gefahr, die im Spukhaus auf dem Warnschild fehlt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-020",
+      "pack": "horror",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was könnte aus einem Abfluss kriechen und Miete verlangen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-021",
+      "pack": "horror",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welcher Geruch verrät ein Monster schon vor seinem Auftritt?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-022",
+      "pack": "horror",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne einen lächerlichen Fluch für eine verhexte Puppe!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-horror-023",
+      "pack": "horror",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was wäre ein schlechter Kampfspruch gegen Dämonen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-024",
+      "pack": "horror",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welches Möbelstück wäre als Spukobjekt besonders nervig?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-horror-025",
+      "pack": "horror",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was wäre die widerlichste Spezialität einer Vampirkantine?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-001",
+      "pack": "crime",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne einen lächerlichen Grund für eine Verhaftung!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-002",
+      "pack": "crime",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was sollte man bei einem Banküberfall nicht vergessen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-003",
+      "pack": "crime",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne einen besonders schlechten Gangsternamen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-004",
+      "pack": "crime",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Welches Fahrzeug wäre als Fluchtwagen eine Katastrophe?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-005",
+      "pack": "crime",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was könnte ein Dieb versehentlich am Tatort zurücklassen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-006",
+      "pack": "crime",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne eine schlechte Ausrede vor Gericht!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-007",
+      "pack": "crime",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was wäre ein grotesker Beweis, den ein Comic-Gangster am Tatort vergisst?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-008",
+      "pack": "crime",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Welche Beute macht einen Bankraub besonders beschämend?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-009",
+      "pack": "crime",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne eine absurde Strafe für einen fiktiven Superschurken!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-010",
+      "pack": "crime",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welche Nachricht an die Polizei wäre besonders selbstentlarvend?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-011",
+      "pack": "crime",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne ein Geräusch, das einen Einbruch sofort verrät!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-012",
+      "pack": "crime",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was könnte in einem Verhör unfreiwillig komisch sein?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-013",
+      "pack": "crime",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Welcher Beruf wäre die schlechteste Tarnung für einen Ganoven?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-014",
+      "pack": "crime",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne einen unpassenden Namen für eine Gefängnisband!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-015",
+      "pack": "crime",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was sollte man in einer Gangsterrede nicht zugeben?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-016",
+      "pack": "crime",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was könnte ein Möchtegern-Mafioso im Verhör stolz gestehen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-017",
+      "pack": "crime",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Welches Geschenk an den Richter wäre eine neue Anklage wert?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-018",
+      "pack": "crime",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Was wäre ein geschmackloser Name für eine Gangster-Beerdigung?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-019",
+      "pack": "crime",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welches Foto gehört nicht auf einen gefälschten Ausweis?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-020",
+      "pack": "crime",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne eine Strafe, die nur einen eitlen Verbrecher trifft!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-021",
+      "pack": "crime",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was könnte ein Krimineller auf seiner Visitenkarte schreiben?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-022",
+      "pack": "crime",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Welches Kostüm wäre für einen unauffälligen Raub ungeeignet?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-crime-023",
+      "pack": "crime",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne ein Geschenk, das ein Gefängniswärter ablehnt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-024",
+      "pack": "crime",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was wäre ein peinlicher Codename für eine Schmuggelaktion?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-crime-025",
+      "pack": "crime",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Nenne etwas, das ein Comic-Knasti illegal in seiner Zelle züchtet!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-001",
+      "pack": "gross",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Was möchte man niemals in einem Hotelbett finden?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-002",
+      "pack": "gross",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne etwas Ekelhaftes, das im Essen auftauchen könnte!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-003",
+      "pack": "gross",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was könnte jemand heimlich in Gläsern sammeln?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-004",
+      "pack": "gross",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Welcher Geruch vertreibt alle aus dem Aufzug?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-005",
+      "pack": "gross",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne einen Gegenstand, der im Kühlschrank nicht leben sollte!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-006",
+      "pack": "gross",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was könnte aus einer alten Sofaritze fallen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-007",
+      "pack": "gross",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was könnte nach Monaten aus einer vergessenen Brotdose kriechen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-008",
+      "pack": "gross",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Welchen Fund in einer gebrauchten Matratze verschweigt der Verkäufer?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-009",
+      "pack": "gross",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne etwas, das im Duschabfluss eine eigene Adresse verdient!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-010",
+      "pack": "gross",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne etwas, das man unter einem Restauranttisch lieber nicht sieht!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-011",
+      "pack": "gross",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welches Geräusch aus der Toilette macht nervös?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-012",
+      "pack": "gross",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne eine Zutat, die auf keiner Pizza landen sollte!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-013",
+      "pack": "gross",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Was könnte in einem gebrauchten Schuh stecken?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-014",
+      "pack": "gross",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welches Getränk sollte niemals Stückchen enthalten?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-015",
+      "pack": "gross",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne einen Grund, warum man einen Kühlschrank versiegelt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-016",
+      "pack": "gross",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was wäre eine widerliche Füllung für ein Überraschungsgebäck?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-017",
+      "pack": "gross",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Welcher Geruch im Keller verrät ein völlig misslungenes Experiment?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-018",
+      "pack": "gross",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Was könnte ein Gast heimlich unter dem Restauranttisch ankleben?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-019",
+      "pack": "gross",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welches Tier im Badezimmer löst Panik aus?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-020",
+      "pack": "gross",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was könnte in einer Tupperdose seit Jahren wachsen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-021",
+      "pack": "gross",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne einen Ort, an dem man keine fremden Haare finden will!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-022",
+      "pack": "gross",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Welcher Gegenstand sollte nach einer Party verbrannt werden?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-gross-023",
+      "pack": "gross",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne etwas, das in einer Zahnarztpraxis verdächtig riecht!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-024",
+      "pack": "gross",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was wäre ein übler Inhalt für eine Pralinenschachtel?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-gross-025",
+      "pack": "gross",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Nenne einen Fund im Hotel-Wasserkocher, der sofortige Flucht auslöst!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-001",
+      "pack": "party",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne einen Grund, aus einer Kneipe geworfen zu werden!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-002",
+      "pack": "party",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was bereut man am Morgen nach einer Party?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-003",
+      "pack": "party",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welcher Gegenstand fehlt auf einer eskalierten Feier immer?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-004",
+      "pack": "party",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne einen Drink mit einem abschreckenden Namen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-005",
+      "pack": "party",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was sollte man betrunken nicht an den Chef schicken?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-006",
+      "pack": "party",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welches Lied löst um drei Uhr morgens Streit aus?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-007",
+      "pack": "party",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was müsste auf einem Partyvideo stehen, damit alle es löschen wollen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-008",
+      "pack": "party",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Welche Nachricht an den Ex nach zehn Drinks wäre besonders schamlos?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-009",
+      "pack": "party",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne einen Gegenstand, der nach einer Orgie auf der Hausparty fehlt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-010",
+      "pack": "party",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne einen Grund, warum eine Hausparty bei der Polizei endet!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-011",
+      "pack": "party",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was wäre ein furchtbarer Name für eine Cocktailbar?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-012",
+      "pack": "party",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welches Möbelstück überlebt die Party nicht?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-013",
+      "pack": "party",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne etwas, das man nach dem letzten Shot verliert!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-014",
+      "pack": "party",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welche Sprachnachricht sollte nüchtern bleiben?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-015",
+      "pack": "party",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne eine Partyregel, die nach Mitternacht niemand befolgt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-016",
+      "pack": "party",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was könnte jemand im Rausch in die Karaoke-Maschine beichten?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-017",
+      "pack": "party",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Welcher Fund im Badezimmer beendet die Party schlagartig?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-018",
+      "pack": "party",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne eine Aktion, für die ein Club lebenslang Hausverbot erteilt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-019",
+      "pack": "party",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Was könnte ein Barkeeper in einem Glas entdecken?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-020",
+      "pack": "party",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welcher Party-Snack wird zur Wette?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-021",
+      "pack": "party",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne eine Ausrede für einen Kater, die keiner glaubt!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-022",
+      "pack": "party",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Was darf auf einer Firmenfeier nicht gefilmt werden?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-party-023",
+      "pack": "party",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welcher Satz macht aus einer Afterparty eine Krisensitzung?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-024",
+      "pack": "party",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne einen seltsamen Ort, an dem man nach dem Feiern aufwacht!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-party-025",
+      "pack": "party",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was wäre ein furchtbarer Eintrag im Gästebuch einer völlig eskalierten Feier?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-001",
+      "pack": "taboo",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Was soll niemand in deinem Browserverlauf finden?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-002",
+      "pack": "taboo",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welche Suchanfrage möchte man nicht erklären müssen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-003",
+      "pack": "taboo",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was könnte man versehentlich an den Chef schicken?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-004",
+      "pack": "taboo",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne ein Geheimnis, das beim Familienessen herausplatzt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-005",
+      "pack": "taboo",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welcher Satz im Fahrstuhl ist unfreiwillig intim?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-006",
+      "pack": "taboo",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was sollte man im offenen Mikrofon nicht erzählen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-007",
+      "pack": "taboo",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welche offene Browserseite macht ein Bewerbungsgespräch sofort vorbei?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-008",
+      "pack": "taboo",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was könnte bei einer Bildschirmfreigabe deine ganze Familie schockieren?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-009",
+      "pack": "taboo",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne ein Geständnis, das auf der Familienfeier ein Erbe zerstört!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-010",
+      "pack": "taboo",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne eine Nachricht, die an den falschen Chat ging!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-011",
+      "pack": "taboo",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was könnte man beim Arzt versehentlich zu laut sagen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-012",
+      "pack": "taboo",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welches Foto sollte nie als Hintergrundbild auftauchen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-013",
+      "pack": "taboo",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne eine Lüge, die Eltern sofort durchschauen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-014",
+      "pack": "taboo",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was sollte ein Sprachassistent nicht laut vorlesen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-015",
+      "pack": "taboo",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welcher Spitzname wäre auf einer Namenskarte unerträglich?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-016",
+      "pack": "taboo",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welche Nachricht an den falschen Gruppenchat ist nicht zurückzuholen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-017",
+      "pack": "taboo",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was wäre ein extrem peinlicher Fund bei einer Wohnungsbesichtigung?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-018",
+      "pack": "taboo",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Welcher Satz im offenen Mikrofon ruiniert deine Hochzeit?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-019",
+      "pack": "taboo",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne etwas, das man beim Videoanruf im Hintergrund vergisst!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-020",
+      "pack": "taboo",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welcher Satz ruiniert einen Überraschungsbesuch?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-021",
+      "pack": "taboo",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne einen Gegenstand, den man bei der Sicherheitskontrolle erklären muss!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-022",
+      "pack": "taboo",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Welche Notiz am Badezimmerspiegel macht Gäste nervös?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-taboo-023",
+      "pack": "taboo",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was wäre ein Tabuthema für eine Hochzeitstorte?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-024",
+      "pack": "taboo",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne eine Situation, in der Autokorrektur dich verrät!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-taboo-025",
+      "pack": "taboo",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Nenne ein Foto, für das du dein Handy lieber im See versenkst!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-001",
+      "pack": "work",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Was sollte ein Bestatter niemals zu Kunden sagen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-002",
+      "pack": "work",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Wofür könnte ein Arzt sofort gefeuert werden?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-003",
+      "pack": "work",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was darf ein Tätowierer nicht auf die Haut schreiben?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-004",
+      "pack": "work",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Welcher Satz macht einen Zahnarztbesuch schlimmer?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-005",
+      "pack": "work",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne einen Beruf, der bei einer Hochzeit schweigen sollte!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-006",
+      "pack": "work",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was wäre ein unprofessioneller Name für eine Anwaltskanzlei?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-007",
+      "pack": "work",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was könnte ein Bestatter als Zusatzleistung anbieten, das alle verstört?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-008",
+      "pack": "work",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Welcher Satz eines Chirurgen bringt den ganzen OP-Saal zum Schweigen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-009",
+      "pack": "work",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne eine geschmacklose Werbeaktion für eine Klinik!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-010",
+      "pack": "work",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welche Bewertung möchte ein Hotel nicht bekommen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-011",
+      "pack": "work",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was wäre ein miserabler Slogan für eine Paartherapie?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-012",
+      "pack": "work",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welcher Satz eines Fahrlehrers löst Panik aus?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-013",
+      "pack": "work",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne eine Sache, die ein Friseur heimlich nicht zugeben darf!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-014",
+      "pack": "work",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was könnte ein Priester beim Beichten falsch verstehen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-015",
+      "pack": "work",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welcher Arbeitsplatz wäre für einen Vampir absurd?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-016",
+      "pack": "work",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Was dürfte auf einer Rechnung vom Krematorium niemals stehen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-017",
+      "pack": "work",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Welches Geheimnis eines Tätowierers ruiniert jeden Kundentermin?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-018",
+      "pack": "work",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Was wäre eine furchtbare Durchsage auf einem Bestattungsflug?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-019",
+      "pack": "work",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne einen peinlichen Fehler auf einer Grabsteinrechnung!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-020",
+      "pack": "work",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was sollte ein Barkeeper nicht über einen Stammgast twittern?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-021",
+      "pack": "work",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welches Verkaufsgespräch klingt wie eine Drohung?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-022",
+      "pack": "work",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne einen Gegenstand, der im Gerichtssaal nicht quietschen darf!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-work-023",
+      "pack": "work",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welche Durchsage im Zug wäre ein Kündigungsgrund?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-024",
+      "pack": "work",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was wäre ein furchtbarer Firmenname für ein Labor?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-work-025",
+      "pack": "work",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Nenne eine Berufspanne, die einen Grabstein für immer peinlich macht!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-001",
+      "pack": "daily",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welcher harmlose Gegenstand sieht verdächtig versaut aus?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-002",
+      "pack": "daily",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was könnte im Schlafzimmer sehr laut sein?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-003",
+      "pack": "daily",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welcher Satz passt beim Kochen und beim Sex?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-004",
+      "pack": "daily",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne ein Küchenutensil mit einem unanständigen Spitznamen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-005",
+      "pack": "daily",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was wäre eine zweideutige Ansage im Fitnessstudio?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-006",
+      "pack": "daily",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welcher Gegenstand aus dem Baumarkt wirkt im Bett fehl am Platz?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-007",
+      "pack": "daily",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welcher Einkauf im Drogeriemarkt lässt die Kassiererin laut nachfragen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-008",
+      "pack": "daily",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Nenne einen Gegenstand, der nach einer wilden Nacht in der Küche liegt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-009",
+      "pack": "daily",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Was könnte die Waschmaschine nach einer Party verstörend ausspucken?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-010",
+      "pack": "daily",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne einen Ort, an dem ein zweideutiges Plakat hängt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-011",
+      "pack": "daily",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welcher Satz im Möbelhaus klingt nach einem Date?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-012",
+      "pack": "daily",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was sollte auf einer Gurkenverpackung nicht stehen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-013",
+      "pack": "daily",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne ein Geräusch, das beim Putzen falsche Schlüsse zulässt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-014",
+      "pack": "daily",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welche Frage beim Bäcker wäre unanständig zweideutig?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-015",
+      "pack": "daily",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was wäre ein unpassender Name für einen Massagesessel?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-016",
+      "pack": "daily",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welcher Satz beim Heimwerken klingt wie schmutziger Dirty Talk?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-017",
+      "pack": "daily",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Nenne einen Fund in der Werkzeugkiste, der eine Beziehung beendet!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-018",
+      "pack": "daily",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Was wäre eine extrem zweideutige Ansage im Baumarkt?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-019",
+      "pack": "daily",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Was könnte in einer Bedienungsanleitung wie ein Flirt klingen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-020",
+      "pack": "daily",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne eine Zimmerpflanze mit einem unanständigen Namen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-021",
+      "pack": "daily",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was sollte man im Supermarkt nicht demonstrieren?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-022",
+      "pack": "daily",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Welcher Satz bei der Autowäsche klingt wie eine Anmache?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-daily-023",
+      "pack": "daily",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne eine Haushaltsarbeit mit zweideutigem Namen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-024",
+      "pack": "daily",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was wäre ein peinliches Schild an der Badezimmertür?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-daily-025",
+      "pack": "daily",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welche harmlose Verpackung wirkt in einer Polizeikontrolle unanständig?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-001",
+      "pack": "hell",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welchen Job würde der Teufel besonders gut machen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-002",
+      "pack": "hell",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne eine absurde Strafe aus der Hölle!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-003",
+      "pack": "hell",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was könnte Satan zum Geburtstag bekommen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-004",
+      "pack": "hell",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Welcher Song läuft im Fahrstuhl zur Unterwelt?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-005",
+      "pack": "hell",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Nenne einen Grund, warum ein Dämon kündigt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-006",
+      "pack": "hell",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was wäre ein furchtbarer Name für eine Höllenbar?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-007",
+      "pack": "hell",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welche groteske Dienstleistung verkauft Satan den Neuankömmlingen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-008",
+      "pack": "hell",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was wäre ein widerlicher Willkommensdrink im Fegefeuer?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-009",
+      "pack": "hell",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne eine Höllenstrafe, die aus einem peinlichen Date besteht!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-010",
+      "pack": "hell",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Welches Haustier hätte der Teufel?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-011",
+      "pack": "hell",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Nenne eine schlechte Ausrede vor dem Jüngsten Gericht!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-012",
+      "pack": "hell",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welche App wäre in der Hölle Pflicht?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-013",
+      "pack": "hell",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Was könnte auf einer Postkarte aus der Unterwelt stehen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-014",
+      "pack": "hell",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welcher Beruf wird im Jenseits besonders schlecht bezahlt?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-015",
+      "pack": "hell",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne einen Gegenstand, den ein Dämon nicht anfassen darf!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-016",
+      "pack": "hell",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welchen Gegenstand müsste man dem Teufel für einen Gefallen opfern?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-017",
+      "pack": "hell",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was könnte ein Dämon als Souvenir von einer Beerdigung mitbringen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-018",
+      "pack": "hell",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Welcher Satz am Himmelstor schickt dich sofort in den Keller?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-019",
+      "pack": "hell",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Was wäre ein peinlicher Spitzname für den Sensenmann?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-020",
+      "pack": "hell",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welche Werbung hängt am Eingang zur Hölle?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-021",
+      "pack": "hell",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Nenne ein Geräusch aus dem Fegefeuer, das alle nervt!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-022",
+      "pack": "hell",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Was würde ein Geist bei einer Hotline reklamieren?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-hell-023",
+      "pack": "hell",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welcher Gegenstand macht einen Exorzismus lächerlich?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-024",
+      "pack": "hell",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Nenne eine schlechte Ausrede für einen Pakt mit dem Teufel!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-hell-025",
+      "pack": "hell",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Nenne eine furchtbare Kombination aus Liebesleben und ewiger Verdammnis!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-001",
+      "pack": "moral",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne eine miese Ausrede für eine Trennung!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-002",
+      "pack": "moral",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was schenkt man einem Feind zu Weihnachten?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-003",
+      "pack": "moral",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welcher Ratschlag ruiniert eine Hochzeit?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-004",
+      "pack": "moral",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne einen Grund, ein Geschenk sofort weiterzuverkaufen!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-005",
+      "pack": "moral",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Was könnte man bei einer Entschuldigung verschlimmern?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-006",
+      "pack": "moral",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Welcher Satz klingt wie ein Kompliment und ist eine Beleidigung?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-007",
+      "pack": "moral",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welche Ausrede für einen Seitensprung ist so dreist, dass sie wieder lustig ist?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-008",
+      "pack": "moral",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was wäre eine völlig herzlose Notiz auf einer Trennungskarte?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-009",
+      "pack": "moral",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Nenne ein Geschenk, das eine Beerdigung endgültig eskalieren lässt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-010",
+      "pack": "moral",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne eine Regel, die ein schlechter Mitbewohner aufstellt!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-011",
+      "pack": "moral",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Was sollte man beim Erben nicht als Erstes fragen?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-012",
+      "pack": "moral",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Welche Ausrede für einen vergessenen Geburtstag ist besonders dreist?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-013",
+      "pack": "moral",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne einen Gefallen, den niemand wirklich zurückzahlen kann!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-014",
+      "pack": "moral",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welches Haustier würde man einem Feind aus Bosheit schenken?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-015",
+      "pack": "moral",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was wäre ein unehrlicher Titel für ein Selbsthilfebuch?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-016",
+      "pack": "moral",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Welches Angebot an einen trauernden Erben wäre besonders schäbig?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-017",
+      "pack": "moral",
+      "level": "normal",
+      "intensity": 3,
+      "text": "Was könnte jemand aus Rache in eine Hochzeitsrede schmuggeln?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-018",
+      "pack": "moral",
+      "level": "hard",
+      "intensity": 3,
+      "text": "Welche Lüge beim Ehegelübde hören sogar die Gäste heraus?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-019",
+      "pack": "moral",
+      "level": "easy",
+      "intensity": 1,
+      "text": "Nenne ein Versprechen, das niemand nüchtern geben würde!",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-020",
+      "pack": "moral",
+      "level": "normal",
+      "intensity": 1,
+      "text": "Welche Ausrede für einen Seitensprung wäre lächerlich?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-021",
+      "pack": "moral",
+      "level": "hard",
+      "intensity": 1,
+      "text": "Was wäre ein moralisch fragwürdiger Firmenbonus?",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-022",
+      "pack": "moral",
+      "level": "easy",
+      "intensity": 2,
+      "text": "Nenne einen Grund, warum ein Freund dein WLAN-Passwort nicht bekommt!",
+      "ruleTags": [
+        "open"
+      ]
+    },
+    {
+      "id": "adult-moral-023",
+      "pack": "moral",
+      "level": "normal",
+      "intensity": 2,
+      "text": "Welches Kompliment zum neuen Baby klingt eher wie eine Warnung?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-024",
+      "pack": "moral",
+      "level": "hard",
+      "intensity": 2,
+      "text": "Was könnte in einem Testament eine Familienfehde auslösen?",
+      "ruleTags": []
+    },
+    {
+      "id": "adult-moral-025",
+      "pack": "moral",
+      "level": "easy",
+      "intensity": 3,
+      "text": "Nenne eine miese Idee, um das Testament der Familie zu beeinflussen!",
+      "ruleTags": []
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {resolve} from 'node:path';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
-const port = 16006;
+const port = Number(process.env.PORT || 16006);
 const host = process.env.HOST || '127.0.0.1';
 const files = new Map([
   ['/index.html','text/html; charset=utf-8'],
@@ -14,7 +14,14 @@ const files = new Map([
   ['/js/extras.js','text/javascript; charset=utf-8'],
   ['/js/audio.js','text/javascript; charset=utf-8'],
   ['/js/themes.js','text/javascript; charset=utf-8'],
+  ['/js/edition.js','text/javascript; charset=utf-8'],
+  ['/js/lines.js','text/javascript; charset=utf-8'],
   ['/categories.json','application/json; charset=utf-8'],
+  ['/css/adult.css','text/css; charset=utf-8'],
+  ['/18/index.html','text/html; charset=utf-8'],
+  ['/18/categories.json','application/json; charset=utf-8'],
+  ['/18/manifest.webmanifest','application/manifest+json'],
+  ['/18/sw.js','text/javascript; charset=utf-8'],
   ['/assets/icon.svg','image/svg+xml'],
   ['/manifest.webmanifest','application/manifest+json'],
   ['/sw.js','text/javascript; charset=utf-8']
@@ -26,7 +33,7 @@ createServer(async (request, response) => {
     return;
   }
   const pathname = new URL(request.url, 'http://localhost').pathname;
-  const file = pathname === '/' ? '/index.html' : pathname;
+  const file = pathname === '/' ? '/index.html' : pathname === '/18/' ? '/18/index.html' : pathname;
   if (!files.has(file)) {
     response.writeHead(404).end('Nicht gefunden');
     return;
